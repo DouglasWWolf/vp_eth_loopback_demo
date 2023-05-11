@@ -1,0 +1,1466 @@
+#######################################
+# ACE GENERATED PDC FILE
+# Generated on: 2023.05.10 at 14:47:42 PDT
+# By: ACE 9.0.1
+# From project: vp_project
+#######################################
+# IO Ring Boundary Pin Placement File
+#######################################
+
+# Insertion of boundary pin instances
+# Boundary pins for ethernet_0
+# Clocks and Resets
+create_boundary_pins {p:ethernet_0_m0_ff_clk_divby2} {ethernet_0_m0_ff_clk_divby2_ipin} -clock
+create_boundary_pins {p:ethernet_0_m1_ff_clk_divby2} {ethernet_0_m1_ff_clk_divby2_ipin} -clock
+create_boundary_pins {p:ethernet_0_ref_clk_divby2} {ethernet_0_ref_clk_divby2_ipin} -clock
+# Free Running Counter
+create_boundary_pins {p:ethernet_0_free_running_counter[0]} {ethernet_0_free_running_counter[0]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[1]} {ethernet_0_free_running_counter[1]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[2]} {ethernet_0_free_running_counter[2]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[3]} {ethernet_0_free_running_counter[3]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[4]} {ethernet_0_free_running_counter[4]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[5]} {ethernet_0_free_running_counter[5]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[6]} {ethernet_0_free_running_counter[6]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[7]} {ethernet_0_free_running_counter[7]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[8]} {ethernet_0_free_running_counter[8]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[9]} {ethernet_0_free_running_counter[9]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[10]} {ethernet_0_free_running_counter[10]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[11]} {ethernet_0_free_running_counter[11]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[12]} {ethernet_0_free_running_counter[12]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[13]} {ethernet_0_free_running_counter[13]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[14]} {ethernet_0_free_running_counter[14]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[15]} {ethernet_0_free_running_counter[15]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[16]} {ethernet_0_free_running_counter[16]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[17]} {ethernet_0_free_running_counter[17]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[18]} {ethernet_0_free_running_counter[18]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[19]} {ethernet_0_free_running_counter[19]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[20]} {ethernet_0_free_running_counter[20]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[21]} {ethernet_0_free_running_counter[21]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[22]} {ethernet_0_free_running_counter[22]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[23]} {ethernet_0_free_running_counter[23]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[24]} {ethernet_0_free_running_counter[24]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[25]} {ethernet_0_free_running_counter[25]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[26]} {ethernet_0_free_running_counter[26]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[27]} {ethernet_0_free_running_counter[27]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[28]} {ethernet_0_free_running_counter[28]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[29]} {ethernet_0_free_running_counter[29]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[30]} {ethernet_0_free_running_counter[30]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[31]} {ethernet_0_free_running_counter[31]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[32]} {ethernet_0_free_running_counter[32]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[33]} {ethernet_0_free_running_counter[33]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[34]} {ethernet_0_free_running_counter[34]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[35]} {ethernet_0_free_running_counter[35]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[36]} {ethernet_0_free_running_counter[36]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[37]} {ethernet_0_free_running_counter[37]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[38]} {ethernet_0_free_running_counter[38]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[39]} {ethernet_0_free_running_counter[39]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[40]} {ethernet_0_free_running_counter[40]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[41]} {ethernet_0_free_running_counter[41]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[42]} {ethernet_0_free_running_counter[42]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[43]} {ethernet_0_free_running_counter[43]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[44]} {ethernet_0_free_running_counter[44]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[45]} {ethernet_0_free_running_counter[45]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[46]} {ethernet_0_free_running_counter[46]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[47]} {ethernet_0_free_running_counter[47]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[48]} {ethernet_0_free_running_counter[48]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[49]} {ethernet_0_free_running_counter[49]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[50]} {ethernet_0_free_running_counter[50]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[51]} {ethernet_0_free_running_counter[51]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[52]} {ethernet_0_free_running_counter[52]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[53]} {ethernet_0_free_running_counter[53]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[54]} {ethernet_0_free_running_counter[54]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[55]} {ethernet_0_free_running_counter[55]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[56]} {ethernet_0_free_running_counter[56]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[57]} {ethernet_0_free_running_counter[57]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[58]} {ethernet_0_free_running_counter[58]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[59]} {ethernet_0_free_running_counter[59]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[60]} {ethernet_0_free_running_counter[60]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[61]} {ethernet_0_free_running_counter[61]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[62]} {ethernet_0_free_running_counter[62]_opin} -data
+create_boundary_pins {p:ethernet_0_free_running_counter[63]} {ethernet_0_free_running_counter[63]_opin} -data
+# Quad MAC 0 Flow Control
+create_boundary_pins {p:ethernet_0_quad0_emac_enable[0]} {ethernet_0_quad0_emac_enable[0]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_enable[1]} {ethernet_0_quad0_emac_enable[1]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_enable[2]} {ethernet_0_quad0_emac_enable[2]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_enable[3]} {ethernet_0_quad0_emac_enable[3]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_en[0]} {ethernet_0_quad0_emac_pause_en[0]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_en[1]} {ethernet_0_quad0_emac_pause_en[1]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_en[2]} {ethernet_0_quad0_emac_pause_en[2]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_en[3]} {ethernet_0_quad0_emac_pause_en[3]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[0]} {ethernet_0_quad0_emac_pause_on[0]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[1]} {ethernet_0_quad0_emac_pause_on[1]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[2]} {ethernet_0_quad0_emac_pause_on[2]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[3]} {ethernet_0_quad0_emac_pause_on[3]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[4]} {ethernet_0_quad0_emac_pause_on[4]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[5]} {ethernet_0_quad0_emac_pause_on[5]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[6]} {ethernet_0_quad0_emac_pause_on[6]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[7]} {ethernet_0_quad0_emac_pause_on[7]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[8]} {ethernet_0_quad0_emac_pause_on[8]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[9]} {ethernet_0_quad0_emac_pause_on[9]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[10]} {ethernet_0_quad0_emac_pause_on[10]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[11]} {ethernet_0_quad0_emac_pause_on[11]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[12]} {ethernet_0_quad0_emac_pause_on[12]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[13]} {ethernet_0_quad0_emac_pause_on[13]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[14]} {ethernet_0_quad0_emac_pause_on[14]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[15]} {ethernet_0_quad0_emac_pause_on[15]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[16]} {ethernet_0_quad0_emac_pause_on[16]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[17]} {ethernet_0_quad0_emac_pause_on[17]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[18]} {ethernet_0_quad0_emac_pause_on[18]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[19]} {ethernet_0_quad0_emac_pause_on[19]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[20]} {ethernet_0_quad0_emac_pause_on[20]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[21]} {ethernet_0_quad0_emac_pause_on[21]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[22]} {ethernet_0_quad0_emac_pause_on[22]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[23]} {ethernet_0_quad0_emac_pause_on[23]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[24]} {ethernet_0_quad0_emac_pause_on[24]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[25]} {ethernet_0_quad0_emac_pause_on[25]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[26]} {ethernet_0_quad0_emac_pause_on[26]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[27]} {ethernet_0_quad0_emac_pause_on[27]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[28]} {ethernet_0_quad0_emac_pause_on[28]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[29]} {ethernet_0_quad0_emac_pause_on[29]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[30]} {ethernet_0_quad0_emac_pause_on[30]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_pause_on[31]} {ethernet_0_quad0_emac_pause_on[31]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[0]} {ethernet_0_quad0_emac_xoff_gen[0]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[1]} {ethernet_0_quad0_emac_xoff_gen[1]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[2]} {ethernet_0_quad0_emac_xoff_gen[2]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[3]} {ethernet_0_quad0_emac_xoff_gen[3]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[4]} {ethernet_0_quad0_emac_xoff_gen[4]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[5]} {ethernet_0_quad0_emac_xoff_gen[5]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[6]} {ethernet_0_quad0_emac_xoff_gen[6]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[7]} {ethernet_0_quad0_emac_xoff_gen[7]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[8]} {ethernet_0_quad0_emac_xoff_gen[8]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[9]} {ethernet_0_quad0_emac_xoff_gen[9]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[10]} {ethernet_0_quad0_emac_xoff_gen[10]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[11]} {ethernet_0_quad0_emac_xoff_gen[11]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[12]} {ethernet_0_quad0_emac_xoff_gen[12]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[13]} {ethernet_0_quad0_emac_xoff_gen[13]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[14]} {ethernet_0_quad0_emac_xoff_gen[14]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[15]} {ethernet_0_quad0_emac_xoff_gen[15]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[16]} {ethernet_0_quad0_emac_xoff_gen[16]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[17]} {ethernet_0_quad0_emac_xoff_gen[17]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[18]} {ethernet_0_quad0_emac_xoff_gen[18]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[19]} {ethernet_0_quad0_emac_xoff_gen[19]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[20]} {ethernet_0_quad0_emac_xoff_gen[20]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[21]} {ethernet_0_quad0_emac_xoff_gen[21]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[22]} {ethernet_0_quad0_emac_xoff_gen[22]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[23]} {ethernet_0_quad0_emac_xoff_gen[23]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[24]} {ethernet_0_quad0_emac_xoff_gen[24]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[25]} {ethernet_0_quad0_emac_xoff_gen[25]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[26]} {ethernet_0_quad0_emac_xoff_gen[26]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[27]} {ethernet_0_quad0_emac_xoff_gen[27]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[28]} {ethernet_0_quad0_emac_xoff_gen[28]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[29]} {ethernet_0_quad0_emac_xoff_gen[29]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[30]} {ethernet_0_quad0_emac_xoff_gen[30]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_emac_xoff_gen[31]} {ethernet_0_quad0_emac_xoff_gen[31]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_lpi_txhold[0]} {ethernet_0_quad0_lpi_txhold[0]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_lpi_txhold[1]} {ethernet_0_quad0_lpi_txhold[1]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_lpi_txhold[2]} {ethernet_0_quad0_lpi_txhold[2]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_lpi_txhold[3]} {ethernet_0_quad0_lpi_txhold[3]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_mac_stop_tx[0]} {ethernet_0_quad0_mac_stop_tx[0]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_mac_stop_tx[1]} {ethernet_0_quad0_mac_stop_tx[1]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_mac_stop_tx[2]} {ethernet_0_quad0_mac_stop_tx[2]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_mac_stop_tx[3]} {ethernet_0_quad0_mac_stop_tx[3]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_hold_req[0]} {ethernet_0_quad0_tx_hold_req[0]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_hold_req[1]} {ethernet_0_quad0_tx_hold_req[1]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_hold_req[2]} {ethernet_0_quad0_tx_hold_req[2]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_hold_req[3]} {ethernet_0_quad0_tx_hold_req[3]_opin} -data
+# Quad MAC 0 Status
+create_boundary_pins {p:ethernet_0_m0_ffe_tx_ovr[0]} {ethernet_0_m0_ffe_tx_ovr[0]_ipin} -data
+create_boundary_pins {p:ethernet_0_m0_ffe_tx_ovr[1]} {ethernet_0_m0_ffe_tx_ovr[1]_ipin} -data
+create_boundary_pins {p:ethernet_0_m0_ffe_tx_ovr[2]} {ethernet_0_m0_ffe_tx_ovr[2]_ipin} -data
+create_boundary_pins {p:ethernet_0_m0_ffe_tx_ovr[3]} {ethernet_0_m0_ffe_tx_ovr[3]_ipin} -data
+create_boundary_pins {p:ethernet_0_m0_ffp_tx_ovr[0]} {ethernet_0_m0_ffp_tx_ovr[0]_ipin} -data
+create_boundary_pins {p:ethernet_0_m0_ffp_tx_ovr[1]} {ethernet_0_m0_ffp_tx_ovr[1]_ipin} -data
+create_boundary_pins {p:ethernet_0_m0_ffp_tx_ovr[2]} {ethernet_0_m0_ffp_tx_ovr[2]_ipin} -data
+create_boundary_pins {p:ethernet_0_m0_ffp_tx_ovr[3]} {ethernet_0_m0_ffp_tx_ovr[3]_ipin} -data
+create_boundary_pins {p:ethernet_0_m0_mac_tx_underflow[0]} {ethernet_0_m0_mac_tx_underflow[0]_ipin} -data
+create_boundary_pins {p:ethernet_0_m0_mac_tx_underflow[1]} {ethernet_0_m0_mac_tx_underflow[1]_ipin} -data
+create_boundary_pins {p:ethernet_0_m0_mac_tx_underflow[2]} {ethernet_0_m0_mac_tx_underflow[2]_ipin} -data
+create_boundary_pins {p:ethernet_0_m0_mac_tx_underflow[3]} {ethernet_0_m0_mac_tx_underflow[3]_ipin} -data
+# Quad MAC 0 TSN
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[0]} {ethernet_0_quad0_tx_ts[0]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[1]} {ethernet_0_quad0_tx_ts[1]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[2]} {ethernet_0_quad0_tx_ts[2]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[3]} {ethernet_0_quad0_tx_ts[3]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[4]} {ethernet_0_quad0_tx_ts[4]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[5]} {ethernet_0_quad0_tx_ts[5]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[6]} {ethernet_0_quad0_tx_ts[6]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[7]} {ethernet_0_quad0_tx_ts[7]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[8]} {ethernet_0_quad0_tx_ts[8]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[9]} {ethernet_0_quad0_tx_ts[9]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[10]} {ethernet_0_quad0_tx_ts[10]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[11]} {ethernet_0_quad0_tx_ts[11]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[12]} {ethernet_0_quad0_tx_ts[12]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[13]} {ethernet_0_quad0_tx_ts[13]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[14]} {ethernet_0_quad0_tx_ts[14]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[15]} {ethernet_0_quad0_tx_ts[15]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[16]} {ethernet_0_quad0_tx_ts[16]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[17]} {ethernet_0_quad0_tx_ts[17]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[18]} {ethernet_0_quad0_tx_ts[18]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[19]} {ethernet_0_quad0_tx_ts[19]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[20]} {ethernet_0_quad0_tx_ts[20]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[21]} {ethernet_0_quad0_tx_ts[21]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[22]} {ethernet_0_quad0_tx_ts[22]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[23]} {ethernet_0_quad0_tx_ts[23]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[24]} {ethernet_0_quad0_tx_ts[24]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[25]} {ethernet_0_quad0_tx_ts[25]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[26]} {ethernet_0_quad0_tx_ts[26]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[27]} {ethernet_0_quad0_tx_ts[27]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[28]} {ethernet_0_quad0_tx_ts[28]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[29]} {ethernet_0_quad0_tx_ts[29]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[30]} {ethernet_0_quad0_tx_ts[30]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[31]} {ethernet_0_quad0_tx_ts[31]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[32]} {ethernet_0_quad0_tx_ts[32]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[33]} {ethernet_0_quad0_tx_ts[33]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[34]} {ethernet_0_quad0_tx_ts[34]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[35]} {ethernet_0_quad0_tx_ts[35]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[36]} {ethernet_0_quad0_tx_ts[36]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[37]} {ethernet_0_quad0_tx_ts[37]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[38]} {ethernet_0_quad0_tx_ts[38]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[39]} {ethernet_0_quad0_tx_ts[39]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[40]} {ethernet_0_quad0_tx_ts[40]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[41]} {ethernet_0_quad0_tx_ts[41]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[42]} {ethernet_0_quad0_tx_ts[42]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[43]} {ethernet_0_quad0_tx_ts[43]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[44]} {ethernet_0_quad0_tx_ts[44]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[45]} {ethernet_0_quad0_tx_ts[45]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[46]} {ethernet_0_quad0_tx_ts[46]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[47]} {ethernet_0_quad0_tx_ts[47]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[48]} {ethernet_0_quad0_tx_ts[48]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[49]} {ethernet_0_quad0_tx_ts[49]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[50]} {ethernet_0_quad0_tx_ts[50]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[51]} {ethernet_0_quad0_tx_ts[51]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[52]} {ethernet_0_quad0_tx_ts[52]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[53]} {ethernet_0_quad0_tx_ts[53]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[54]} {ethernet_0_quad0_tx_ts[54]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[55]} {ethernet_0_quad0_tx_ts[55]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[56]} {ethernet_0_quad0_tx_ts[56]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[57]} {ethernet_0_quad0_tx_ts[57]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[58]} {ethernet_0_quad0_tx_ts[58]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[59]} {ethernet_0_quad0_tx_ts[59]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[60]} {ethernet_0_quad0_tx_ts[60]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[61]} {ethernet_0_quad0_tx_ts[61]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[62]} {ethernet_0_quad0_tx_ts[62]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[63]} {ethernet_0_quad0_tx_ts[63]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[64]} {ethernet_0_quad0_tx_ts[64]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[65]} {ethernet_0_quad0_tx_ts[65]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[66]} {ethernet_0_quad0_tx_ts[66]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[67]} {ethernet_0_quad0_tx_ts[67]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[68]} {ethernet_0_quad0_tx_ts[68]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[69]} {ethernet_0_quad0_tx_ts[69]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[70]} {ethernet_0_quad0_tx_ts[70]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[71]} {ethernet_0_quad0_tx_ts[71]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[72]} {ethernet_0_quad0_tx_ts[72]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[73]} {ethernet_0_quad0_tx_ts[73]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[74]} {ethernet_0_quad0_tx_ts[74]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[75]} {ethernet_0_quad0_tx_ts[75]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[76]} {ethernet_0_quad0_tx_ts[76]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[77]} {ethernet_0_quad0_tx_ts[77]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[78]} {ethernet_0_quad0_tx_ts[78]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[79]} {ethernet_0_quad0_tx_ts[79]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[80]} {ethernet_0_quad0_tx_ts[80]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[81]} {ethernet_0_quad0_tx_ts[81]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[82]} {ethernet_0_quad0_tx_ts[82]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[83]} {ethernet_0_quad0_tx_ts[83]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[84]} {ethernet_0_quad0_tx_ts[84]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[85]} {ethernet_0_quad0_tx_ts[85]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[86]} {ethernet_0_quad0_tx_ts[86]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[87]} {ethernet_0_quad0_tx_ts[87]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[88]} {ethernet_0_quad0_tx_ts[88]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[89]} {ethernet_0_quad0_tx_ts[89]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[90]} {ethernet_0_quad0_tx_ts[90]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[91]} {ethernet_0_quad0_tx_ts[91]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[92]} {ethernet_0_quad0_tx_ts[92]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[93]} {ethernet_0_quad0_tx_ts[93]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[94]} {ethernet_0_quad0_tx_ts[94]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[95]} {ethernet_0_quad0_tx_ts[95]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[96]} {ethernet_0_quad0_tx_ts[96]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[97]} {ethernet_0_quad0_tx_ts[97]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[98]} {ethernet_0_quad0_tx_ts[98]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[99]} {ethernet_0_quad0_tx_ts[99]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[100]} {ethernet_0_quad0_tx_ts[100]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[101]} {ethernet_0_quad0_tx_ts[101]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[102]} {ethernet_0_quad0_tx_ts[102]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[103]} {ethernet_0_quad0_tx_ts[103]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[104]} {ethernet_0_quad0_tx_ts[104]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[105]} {ethernet_0_quad0_tx_ts[105]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[106]} {ethernet_0_quad0_tx_ts[106]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[107]} {ethernet_0_quad0_tx_ts[107]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[108]} {ethernet_0_quad0_tx_ts[108]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[109]} {ethernet_0_quad0_tx_ts[109]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[110]} {ethernet_0_quad0_tx_ts[110]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[111]} {ethernet_0_quad0_tx_ts[111]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[112]} {ethernet_0_quad0_tx_ts[112]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[113]} {ethernet_0_quad0_tx_ts[113]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[114]} {ethernet_0_quad0_tx_ts[114]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[115]} {ethernet_0_quad0_tx_ts[115]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[116]} {ethernet_0_quad0_tx_ts[116]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[117]} {ethernet_0_quad0_tx_ts[117]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[118]} {ethernet_0_quad0_tx_ts[118]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[119]} {ethernet_0_quad0_tx_ts[119]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[120]} {ethernet_0_quad0_tx_ts[120]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[121]} {ethernet_0_quad0_tx_ts[121]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[122]} {ethernet_0_quad0_tx_ts[122]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[123]} {ethernet_0_quad0_tx_ts[123]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[124]} {ethernet_0_quad0_tx_ts[124]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[125]} {ethernet_0_quad0_tx_ts[125]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[126]} {ethernet_0_quad0_tx_ts[126]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[127]} {ethernet_0_quad0_tx_ts[127]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[128]} {ethernet_0_quad0_tx_ts[128]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[129]} {ethernet_0_quad0_tx_ts[129]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[130]} {ethernet_0_quad0_tx_ts[130]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[131]} {ethernet_0_quad0_tx_ts[131]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[132]} {ethernet_0_quad0_tx_ts[132]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[133]} {ethernet_0_quad0_tx_ts[133]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[134]} {ethernet_0_quad0_tx_ts[134]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[135]} {ethernet_0_quad0_tx_ts[135]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[136]} {ethernet_0_quad0_tx_ts[136]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[137]} {ethernet_0_quad0_tx_ts[137]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[138]} {ethernet_0_quad0_tx_ts[138]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[139]} {ethernet_0_quad0_tx_ts[139]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[140]} {ethernet_0_quad0_tx_ts[140]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[141]} {ethernet_0_quad0_tx_ts[141]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[142]} {ethernet_0_quad0_tx_ts[142]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[143]} {ethernet_0_quad0_tx_ts[143]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[144]} {ethernet_0_quad0_tx_ts[144]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[145]} {ethernet_0_quad0_tx_ts[145]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[146]} {ethernet_0_quad0_tx_ts[146]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[147]} {ethernet_0_quad0_tx_ts[147]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[148]} {ethernet_0_quad0_tx_ts[148]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[149]} {ethernet_0_quad0_tx_ts[149]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[150]} {ethernet_0_quad0_tx_ts[150]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[151]} {ethernet_0_quad0_tx_ts[151]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[152]} {ethernet_0_quad0_tx_ts[152]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[153]} {ethernet_0_quad0_tx_ts[153]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[154]} {ethernet_0_quad0_tx_ts[154]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[155]} {ethernet_0_quad0_tx_ts[155]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[156]} {ethernet_0_quad0_tx_ts[156]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[157]} {ethernet_0_quad0_tx_ts[157]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[158]} {ethernet_0_quad0_tx_ts[158]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[159]} {ethernet_0_quad0_tx_ts[159]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[160]} {ethernet_0_quad0_tx_ts[160]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[161]} {ethernet_0_quad0_tx_ts[161]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[162]} {ethernet_0_quad0_tx_ts[162]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[163]} {ethernet_0_quad0_tx_ts[163]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[164]} {ethernet_0_quad0_tx_ts[164]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[165]} {ethernet_0_quad0_tx_ts[165]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[166]} {ethernet_0_quad0_tx_ts[166]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[167]} {ethernet_0_quad0_tx_ts[167]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[168]} {ethernet_0_quad0_tx_ts[168]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[169]} {ethernet_0_quad0_tx_ts[169]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[170]} {ethernet_0_quad0_tx_ts[170]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[171]} {ethernet_0_quad0_tx_ts[171]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[172]} {ethernet_0_quad0_tx_ts[172]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[173]} {ethernet_0_quad0_tx_ts[173]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[174]} {ethernet_0_quad0_tx_ts[174]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[175]} {ethernet_0_quad0_tx_ts[175]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[176]} {ethernet_0_quad0_tx_ts[176]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[177]} {ethernet_0_quad0_tx_ts[177]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[178]} {ethernet_0_quad0_tx_ts[178]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[179]} {ethernet_0_quad0_tx_ts[179]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[180]} {ethernet_0_quad0_tx_ts[180]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[181]} {ethernet_0_quad0_tx_ts[181]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[182]} {ethernet_0_quad0_tx_ts[182]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[183]} {ethernet_0_quad0_tx_ts[183]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[184]} {ethernet_0_quad0_tx_ts[184]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[185]} {ethernet_0_quad0_tx_ts[185]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[186]} {ethernet_0_quad0_tx_ts[186]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[187]} {ethernet_0_quad0_tx_ts[187]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[188]} {ethernet_0_quad0_tx_ts[188]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[189]} {ethernet_0_quad0_tx_ts[189]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[190]} {ethernet_0_quad0_tx_ts[190]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[191]} {ethernet_0_quad0_tx_ts[191]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[192]} {ethernet_0_quad0_tx_ts[192]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[193]} {ethernet_0_quad0_tx_ts[193]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[194]} {ethernet_0_quad0_tx_ts[194]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[195]} {ethernet_0_quad0_tx_ts[195]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[196]} {ethernet_0_quad0_tx_ts[196]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[197]} {ethernet_0_quad0_tx_ts[197]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[198]} {ethernet_0_quad0_tx_ts[198]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[199]} {ethernet_0_quad0_tx_ts[199]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[200]} {ethernet_0_quad0_tx_ts[200]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[201]} {ethernet_0_quad0_tx_ts[201]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[202]} {ethernet_0_quad0_tx_ts[202]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[203]} {ethernet_0_quad0_tx_ts[203]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[204]} {ethernet_0_quad0_tx_ts[204]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[205]} {ethernet_0_quad0_tx_ts[205]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[206]} {ethernet_0_quad0_tx_ts[206]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[207]} {ethernet_0_quad0_tx_ts[207]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[208]} {ethernet_0_quad0_tx_ts[208]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[209]} {ethernet_0_quad0_tx_ts[209]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[210]} {ethernet_0_quad0_tx_ts[210]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[211]} {ethernet_0_quad0_tx_ts[211]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[212]} {ethernet_0_quad0_tx_ts[212]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[213]} {ethernet_0_quad0_tx_ts[213]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[214]} {ethernet_0_quad0_tx_ts[214]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[215]} {ethernet_0_quad0_tx_ts[215]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[216]} {ethernet_0_quad0_tx_ts[216]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[217]} {ethernet_0_quad0_tx_ts[217]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[218]} {ethernet_0_quad0_tx_ts[218]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[219]} {ethernet_0_quad0_tx_ts[219]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[220]} {ethernet_0_quad0_tx_ts[220]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[221]} {ethernet_0_quad0_tx_ts[221]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[222]} {ethernet_0_quad0_tx_ts[222]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[223]} {ethernet_0_quad0_tx_ts[223]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[224]} {ethernet_0_quad0_tx_ts[224]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[225]} {ethernet_0_quad0_tx_ts[225]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[226]} {ethernet_0_quad0_tx_ts[226]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[227]} {ethernet_0_quad0_tx_ts[227]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[228]} {ethernet_0_quad0_tx_ts[228]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[229]} {ethernet_0_quad0_tx_ts[229]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[230]} {ethernet_0_quad0_tx_ts[230]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[231]} {ethernet_0_quad0_tx_ts[231]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[232]} {ethernet_0_quad0_tx_ts[232]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[233]} {ethernet_0_quad0_tx_ts[233]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[234]} {ethernet_0_quad0_tx_ts[234]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[235]} {ethernet_0_quad0_tx_ts[235]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[236]} {ethernet_0_quad0_tx_ts[236]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[237]} {ethernet_0_quad0_tx_ts[237]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[238]} {ethernet_0_quad0_tx_ts[238]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[239]} {ethernet_0_quad0_tx_ts[239]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[240]} {ethernet_0_quad0_tx_ts[240]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[241]} {ethernet_0_quad0_tx_ts[241]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[242]} {ethernet_0_quad0_tx_ts[242]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[243]} {ethernet_0_quad0_tx_ts[243]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[244]} {ethernet_0_quad0_tx_ts[244]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[245]} {ethernet_0_quad0_tx_ts[245]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[246]} {ethernet_0_quad0_tx_ts[246]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[247]} {ethernet_0_quad0_tx_ts[247]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[248]} {ethernet_0_quad0_tx_ts[248]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[249]} {ethernet_0_quad0_tx_ts[249]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[250]} {ethernet_0_quad0_tx_ts[250]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[251]} {ethernet_0_quad0_tx_ts[251]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[252]} {ethernet_0_quad0_tx_ts[252]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[253]} {ethernet_0_quad0_tx_ts[253]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[254]} {ethernet_0_quad0_tx_ts[254]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts[255]} {ethernet_0_quad0_tx_ts[255]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_id[0]} {ethernet_0_quad0_tx_ts_id[0]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_id[1]} {ethernet_0_quad0_tx_ts_id[1]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_id[2]} {ethernet_0_quad0_tx_ts_id[2]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_id[3]} {ethernet_0_quad0_tx_ts_id[3]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_id[4]} {ethernet_0_quad0_tx_ts_id[4]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_id[5]} {ethernet_0_quad0_tx_ts_id[5]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_id[6]} {ethernet_0_quad0_tx_ts_id[6]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_id[7]} {ethernet_0_quad0_tx_ts_id[7]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_id[8]} {ethernet_0_quad0_tx_ts_id[8]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_id[9]} {ethernet_0_quad0_tx_ts_id[9]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_id[10]} {ethernet_0_quad0_tx_ts_id[10]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_id[11]} {ethernet_0_quad0_tx_ts_id[11]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_id[12]} {ethernet_0_quad0_tx_ts_id[12]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_id[13]} {ethernet_0_quad0_tx_ts_id[13]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_id[14]} {ethernet_0_quad0_tx_ts_id[14]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_id[15]} {ethernet_0_quad0_tx_ts_id[15]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_val[0]} {ethernet_0_quad0_tx_ts_val[0]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_val[1]} {ethernet_0_quad0_tx_ts_val[1]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_val[2]} {ethernet_0_quad0_tx_ts_val[2]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_tx_ts_val[3]} {ethernet_0_quad0_tx_ts_val[3]_ipin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[0]} {ethernet_0_quad0_peer_delay[0]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[1]} {ethernet_0_quad0_peer_delay[1]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[2]} {ethernet_0_quad0_peer_delay[2]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[3]} {ethernet_0_quad0_peer_delay[3]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[4]} {ethernet_0_quad0_peer_delay[4]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[5]} {ethernet_0_quad0_peer_delay[5]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[6]} {ethernet_0_quad0_peer_delay[6]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[7]} {ethernet_0_quad0_peer_delay[7]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[8]} {ethernet_0_quad0_peer_delay[8]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[9]} {ethernet_0_quad0_peer_delay[9]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[10]} {ethernet_0_quad0_peer_delay[10]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[11]} {ethernet_0_quad0_peer_delay[11]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[12]} {ethernet_0_quad0_peer_delay[12]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[13]} {ethernet_0_quad0_peer_delay[13]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[14]} {ethernet_0_quad0_peer_delay[14]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[15]} {ethernet_0_quad0_peer_delay[15]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[16]} {ethernet_0_quad0_peer_delay[16]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[17]} {ethernet_0_quad0_peer_delay[17]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[18]} {ethernet_0_quad0_peer_delay[18]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[19]} {ethernet_0_quad0_peer_delay[19]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[20]} {ethernet_0_quad0_peer_delay[20]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[21]} {ethernet_0_quad0_peer_delay[21]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[22]} {ethernet_0_quad0_peer_delay[22]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[23]} {ethernet_0_quad0_peer_delay[23]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[24]} {ethernet_0_quad0_peer_delay[24]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[25]} {ethernet_0_quad0_peer_delay[25]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[26]} {ethernet_0_quad0_peer_delay[26]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[27]} {ethernet_0_quad0_peer_delay[27]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[28]} {ethernet_0_quad0_peer_delay[28]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[29]} {ethernet_0_quad0_peer_delay[29]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[30]} {ethernet_0_quad0_peer_delay[30]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[31]} {ethernet_0_quad0_peer_delay[31]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[32]} {ethernet_0_quad0_peer_delay[32]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[33]} {ethernet_0_quad0_peer_delay[33]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[34]} {ethernet_0_quad0_peer_delay[34]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[35]} {ethernet_0_quad0_peer_delay[35]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[36]} {ethernet_0_quad0_peer_delay[36]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[37]} {ethernet_0_quad0_peer_delay[37]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[38]} {ethernet_0_quad0_peer_delay[38]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[39]} {ethernet_0_quad0_peer_delay[39]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[40]} {ethernet_0_quad0_peer_delay[40]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[41]} {ethernet_0_quad0_peer_delay[41]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[42]} {ethernet_0_quad0_peer_delay[42]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[43]} {ethernet_0_quad0_peer_delay[43]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[44]} {ethernet_0_quad0_peer_delay[44]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[45]} {ethernet_0_quad0_peer_delay[45]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[46]} {ethernet_0_quad0_peer_delay[46]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[47]} {ethernet_0_quad0_peer_delay[47]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[48]} {ethernet_0_quad0_peer_delay[48]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[49]} {ethernet_0_quad0_peer_delay[49]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[50]} {ethernet_0_quad0_peer_delay[50]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[51]} {ethernet_0_quad0_peer_delay[51]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[52]} {ethernet_0_quad0_peer_delay[52]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[53]} {ethernet_0_quad0_peer_delay[53]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[54]} {ethernet_0_quad0_peer_delay[54]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[55]} {ethernet_0_quad0_peer_delay[55]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[56]} {ethernet_0_quad0_peer_delay[56]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[57]} {ethernet_0_quad0_peer_delay[57]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[58]} {ethernet_0_quad0_peer_delay[58]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[59]} {ethernet_0_quad0_peer_delay[59]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[60]} {ethernet_0_quad0_peer_delay[60]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[61]} {ethernet_0_quad0_peer_delay[61]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[62]} {ethernet_0_quad0_peer_delay[62]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[63]} {ethernet_0_quad0_peer_delay[63]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[64]} {ethernet_0_quad0_peer_delay[64]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[65]} {ethernet_0_quad0_peer_delay[65]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[66]} {ethernet_0_quad0_peer_delay[66]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[67]} {ethernet_0_quad0_peer_delay[67]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[68]} {ethernet_0_quad0_peer_delay[68]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[69]} {ethernet_0_quad0_peer_delay[69]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[70]} {ethernet_0_quad0_peer_delay[70]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[71]} {ethernet_0_quad0_peer_delay[71]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[72]} {ethernet_0_quad0_peer_delay[72]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[73]} {ethernet_0_quad0_peer_delay[73]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[74]} {ethernet_0_quad0_peer_delay[74]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[75]} {ethernet_0_quad0_peer_delay[75]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[76]} {ethernet_0_quad0_peer_delay[76]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[77]} {ethernet_0_quad0_peer_delay[77]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[78]} {ethernet_0_quad0_peer_delay[78]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[79]} {ethernet_0_quad0_peer_delay[79]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[80]} {ethernet_0_quad0_peer_delay[80]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[81]} {ethernet_0_quad0_peer_delay[81]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[82]} {ethernet_0_quad0_peer_delay[82]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[83]} {ethernet_0_quad0_peer_delay[83]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[84]} {ethernet_0_quad0_peer_delay[84]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[85]} {ethernet_0_quad0_peer_delay[85]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[86]} {ethernet_0_quad0_peer_delay[86]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[87]} {ethernet_0_quad0_peer_delay[87]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[88]} {ethernet_0_quad0_peer_delay[88]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[89]} {ethernet_0_quad0_peer_delay[89]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[90]} {ethernet_0_quad0_peer_delay[90]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[91]} {ethernet_0_quad0_peer_delay[91]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[92]} {ethernet_0_quad0_peer_delay[92]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[93]} {ethernet_0_quad0_peer_delay[93]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[94]} {ethernet_0_quad0_peer_delay[94]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[95]} {ethernet_0_quad0_peer_delay[95]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[96]} {ethernet_0_quad0_peer_delay[96]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[97]} {ethernet_0_quad0_peer_delay[97]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[98]} {ethernet_0_quad0_peer_delay[98]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[99]} {ethernet_0_quad0_peer_delay[99]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[100]} {ethernet_0_quad0_peer_delay[100]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[101]} {ethernet_0_quad0_peer_delay[101]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[102]} {ethernet_0_quad0_peer_delay[102]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[103]} {ethernet_0_quad0_peer_delay[103]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[104]} {ethernet_0_quad0_peer_delay[104]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[105]} {ethernet_0_quad0_peer_delay[105]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[106]} {ethernet_0_quad0_peer_delay[106]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[107]} {ethernet_0_quad0_peer_delay[107]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[108]} {ethernet_0_quad0_peer_delay[108]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[109]} {ethernet_0_quad0_peer_delay[109]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[110]} {ethernet_0_quad0_peer_delay[110]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[111]} {ethernet_0_quad0_peer_delay[111]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[112]} {ethernet_0_quad0_peer_delay[112]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[113]} {ethernet_0_quad0_peer_delay[113]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[114]} {ethernet_0_quad0_peer_delay[114]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[115]} {ethernet_0_quad0_peer_delay[115]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[116]} {ethernet_0_quad0_peer_delay[116]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[117]} {ethernet_0_quad0_peer_delay[117]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[118]} {ethernet_0_quad0_peer_delay[118]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay[119]} {ethernet_0_quad0_peer_delay[119]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay_val[0]} {ethernet_0_quad0_peer_delay_val[0]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay_val[1]} {ethernet_0_quad0_peer_delay_val[1]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay_val[2]} {ethernet_0_quad0_peer_delay_val[2]_opin} -data
+create_boundary_pins {p:ethernet_0_quad0_peer_delay_val[3]} {ethernet_0_quad0_peer_delay_val[3]_opin} -data
+# Boundary pins for noc
+# Boundary pins for pll_ddr
+create_boundary_pins {p:pll_ddr_lock} {pll_ddr_lock_ipin} -data
+# Boundary pins for pll_eth_sys_ne_0
+create_boundary_pins {p:pll_eth_sys_ne_0_lock} {pll_eth_sys_ne_0_lock_ipin} -data
+# Boundary pins for pll_gddr_SE
+create_boundary_pins {p:pll_gddr_SE_lock} {pll_gddr_SE_lock_ipin} -data
+# Boundary pins for pll_gddr_SW
+create_boundary_pins {p:pll_gddr_SW_lock} {pll_gddr_SW_lock_ipin} -data
+# Boundary pins for pll_noc_ne_1
+create_boundary_pins {p:i_clk} {i_clk_ipin} -clock
+create_boundary_pins {p:i_eth_ts_clk} {i_eth_ts_clk_ipin} -clock
+create_boundary_pins {p:i_reg_clk} {i_reg_clk_ipin} -clock
+create_boundary_pins {p:pll_noc_ne_1_lock} {pll_noc_ne_1_lock_ipin} -data
+# Boundary pins for pll_pcie
+create_boundary_pins {p:pll_pcie_lock} {pll_pcie_lock_ipin} -data
+# Boundary pins for vp_clkio_ne
+create_boundary_pins {p:fpga_rst_l} {fpga_rst_l_ipin} -clock
+set_property used_as_reset 1 {i:fpga_rst_l_ipin}
+# Boundary pins for vp_clkio_nw
+# Boundary pins for vp_clkio_se
+# Boundary pins for vp_clkio_sw
+# Boundary pins for vp_gpio_n_b0
+# Core Data
+create_boundary_pins {p:ext_gpio_fpga_in[0]} {ext_gpio_fpga_in[0]_ipin} -data
+create_boundary_pins {p:ext_gpio_fpga_in[1]} {ext_gpio_fpga_in[1]_ipin} -data
+create_boundary_pins {p:ext_gpio_fpga_in[2]} {ext_gpio_fpga_in[2]_ipin} -data
+create_boundary_pins {p:ext_gpio_fpga_in[3]} {ext_gpio_fpga_in[3]_ipin} -data
+create_boundary_pins {p:ext_gpio_fpga_in[4]} {ext_gpio_fpga_in[4]_ipin} -data
+create_boundary_pins {p:ext_gpio_fpga_in[5]} {ext_gpio_fpga_in[5]_ipin} -data
+create_boundary_pins {p:ext_gpio_fpga_in[6]} {ext_gpio_fpga_in[6]_ipin} -data
+create_boundary_pins {p:ext_gpio_fpga_in[7]} {ext_gpio_fpga_in[7]_ipin} -data
+create_boundary_pins {p:ext_gpio_fpga_oe[0]} {ext_gpio_fpga_oe[0]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_oe[1]} {ext_gpio_fpga_oe[1]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_oe[2]} {ext_gpio_fpga_oe[2]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_oe[3]} {ext_gpio_fpga_oe[3]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_oe[4]} {ext_gpio_fpga_oe[4]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_oe[5]} {ext_gpio_fpga_oe[5]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_oe[6]} {ext_gpio_fpga_oe[6]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_oe[7]} {ext_gpio_fpga_oe[7]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_out[0]} {ext_gpio_fpga_out[0]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_out[1]} {ext_gpio_fpga_out[1]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_out[2]} {ext_gpio_fpga_out[2]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_out[3]} {ext_gpio_fpga_out[3]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_out[4]} {ext_gpio_fpga_out[4]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_out[5]} {ext_gpio_fpga_out[5]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_out[6]} {ext_gpio_fpga_out[6]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_out[7]} {ext_gpio_fpga_out[7]_opin} -data
+create_boundary_pins {p:ext_gpio_oe_l} {ext_gpio_oe_l_opin} -data
+create_boundary_pins {p:ext_gpio_oe_l_oe} {ext_gpio_oe_l_oe_opin} -data
+create_boundary_pins {p:led_oe_l} {led_oe_l_opin} -data
+create_boundary_pins {p:led_oe_l_oe} {led_oe_l_oe_opin} -data
+# Boundary pins for vp_gpio_n_b1
+# Core Data
+create_boundary_pins {p:ext_gpio_dir[0]} {ext_gpio_dir[0]_opin} -data
+create_boundary_pins {p:ext_gpio_dir[1]} {ext_gpio_dir[1]_opin} -data
+create_boundary_pins {p:ext_gpio_dir[2]} {ext_gpio_dir[2]_opin} -data
+create_boundary_pins {p:ext_gpio_dir[3]} {ext_gpio_dir[3]_opin} -data
+create_boundary_pins {p:ext_gpio_dir[4]} {ext_gpio_dir[4]_opin} -data
+create_boundary_pins {p:ext_gpio_dir[5]} {ext_gpio_dir[5]_opin} -data
+create_boundary_pins {p:ext_gpio_dir[6]} {ext_gpio_dir[6]_opin} -data
+create_boundary_pins {p:ext_gpio_dir[7]} {ext_gpio_dir[7]_opin} -data
+create_boundary_pins {p:ext_gpio_dir_oe[0]} {ext_gpio_dir_oe[0]_opin} -data
+create_boundary_pins {p:ext_gpio_dir_oe[1]} {ext_gpio_dir_oe[1]_opin} -data
+create_boundary_pins {p:ext_gpio_dir_oe[2]} {ext_gpio_dir_oe[2]_opin} -data
+create_boundary_pins {p:ext_gpio_dir_oe[3]} {ext_gpio_dir_oe[3]_opin} -data
+create_boundary_pins {p:ext_gpio_dir_oe[4]} {ext_gpio_dir_oe[4]_opin} -data
+create_boundary_pins {p:ext_gpio_dir_oe[5]} {ext_gpio_dir_oe[5]_opin} -data
+create_boundary_pins {p:ext_gpio_dir_oe[6]} {ext_gpio_dir_oe[6]_opin} -data
+create_boundary_pins {p:ext_gpio_dir_oe[7]} {ext_gpio_dir_oe[7]_opin} -data
+create_boundary_pins {p:led_l[4]} {led_l[4]_opin} -data
+create_boundary_pins {p:led_l[5]} {led_l[5]_opin} -data
+create_boundary_pins {p:led_l_oe[4]} {led_l_oe[4]_opin} -data
+create_boundary_pins {p:led_l_oe[5]} {led_l_oe[5]_opin} -data
+# Boundary pins for vp_gpio_n_b2
+# Core Data
+create_boundary_pins {p:led_l[0]} {led_l[0]_opin} -data
+create_boundary_pins {p:led_l[1]} {led_l[1]_opin} -data
+create_boundary_pins {p:led_l[2]} {led_l[2]_opin} -data
+create_boundary_pins {p:led_l[3]} {led_l[3]_opin} -data
+create_boundary_pins {p:led_l[6]} {led_l[6]_opin} -data
+create_boundary_pins {p:led_l[7]} {led_l[7]_opin} -data
+create_boundary_pins {p:led_l_oe[0]} {led_l_oe[0]_opin} -data
+create_boundary_pins {p:led_l_oe[1]} {led_l_oe[1]_opin} -data
+create_boundary_pins {p:led_l_oe[2]} {led_l_oe[2]_opin} -data
+create_boundary_pins {p:led_l_oe[3]} {led_l_oe[3]_opin} -data
+create_boundary_pins {p:led_l_oe[6]} {led_l_oe[6]_opin} -data
+create_boundary_pins {p:led_l_oe[7]} {led_l_oe[7]_opin} -data
+# Boundary pins for vp_gpio_s_b0
+# Core Data
+create_boundary_pins {p:fpga_avr_rxd} {fpga_avr_rxd_ipin} -data
+create_boundary_pins {p:fpga_ftdi_rxd} {fpga_ftdi_rxd_ipin} -data
+create_boundary_pins {p:fpga_i2c_mux_gnt} {fpga_i2c_mux_gnt_ipin} -data
+create_boundary_pins {p:irq_to_fpga} {irq_to_fpga_ipin} -data
+create_boundary_pins {p:qsfp_int_fpga_l} {qsfp_int_fpga_l_ipin} -data
+create_boundary_pins {p:fpga_avr_txd} {fpga_avr_txd_opin} -data
+create_boundary_pins {p:fpga_avr_txd_oe} {fpga_avr_txd_oe_opin} -data
+create_boundary_pins {p:fpga_ftdi_txd} {fpga_ftdi_txd_opin} -data
+create_boundary_pins {p:fpga_ftdi_txd_oe} {fpga_ftdi_txd_oe_opin} -data
+create_boundary_pins {p:fpga_i2c_req_l} {fpga_i2c_req_l_opin} -data
+create_boundary_pins {p:fpga_i2c_req_l_oe} {fpga_i2c_req_l_oe_opin} -data
+create_boundary_pins {p:irq_to_avr} {irq_to_avr_opin} -data
+create_boundary_pins {p:irq_to_avr_oe} {irq_to_avr_oe_opin} -data
+create_boundary_pins {p:test[1]} {test[1]_opin} -data
+create_boundary_pins {p:test_oe[1]} {test_oe[1]_opin} -data
+# Boundary pins for vp_gpio_s_b1
+# Core Clock
+create_boundary_pins {p:mcio_vio_45_10_clk} {mcio_vio_45_10_clk_ipin} -clock
+# Core Data
+create_boundary_pins {p:mcio_vio_in[0]} {mcio_vio_in[0]_ipin} -data
+create_boundary_pins {p:mcio_vio_in[1]} {mcio_vio_in[1]_ipin} -data
+create_boundary_pins {p:mcio_vio_in[2]} {mcio_vio_in[2]_ipin} -data
+create_boundary_pins {p:mcio_vio_in[3]} {mcio_vio_in[3]_ipin} -data
+create_boundary_pins {p:mcio_dir[0]} {mcio_dir[0]_opin} -data
+create_boundary_pins {p:mcio_dir[1]} {mcio_dir[1]_opin} -data
+create_boundary_pins {p:mcio_dir[2]} {mcio_dir[2]_opin} -data
+create_boundary_pins {p:mcio_dir[3]} {mcio_dir[3]_opin} -data
+create_boundary_pins {p:mcio_dir_45} {mcio_dir_45_opin} -data
+create_boundary_pins {p:mcio_dir_45_oe} {mcio_dir_45_oe_opin} -data
+create_boundary_pins {p:mcio_dir_oe[0]} {mcio_dir_oe[0]_opin} -data
+create_boundary_pins {p:mcio_dir_oe[1]} {mcio_dir_oe[1]_opin} -data
+create_boundary_pins {p:mcio_dir_oe[2]} {mcio_dir_oe[2]_opin} -data
+create_boundary_pins {p:mcio_dir_oe[3]} {mcio_dir_oe[3]_opin} -data
+create_boundary_pins {p:mcio_vio_oe[0]} {mcio_vio_oe[0]_opin} -data
+create_boundary_pins {p:mcio_vio_oe[1]} {mcio_vio_oe[1]_opin} -data
+create_boundary_pins {p:mcio_vio_oe[2]} {mcio_vio_oe[2]_opin} -data
+create_boundary_pins {p:mcio_vio_oe[3]} {mcio_vio_oe[3]_opin} -data
+create_boundary_pins {p:mcio_vio_out[0]} {mcio_vio_out[0]_opin} -data
+create_boundary_pins {p:mcio_vio_out[1]} {mcio_vio_out[1]_opin} -data
+create_boundary_pins {p:mcio_vio_out[2]} {mcio_vio_out[2]_opin} -data
+create_boundary_pins {p:mcio_vio_out[3]} {mcio_vio_out[3]_opin} -data
+create_boundary_pins {p:test[2]} {test[2]_opin} -data
+create_boundary_pins {p:test_oe[2]} {test_oe[2]_opin} -data
+# Boundary pins for vp_gpio_s_b2
+# Core Data
+create_boundary_pins {p:fpga_sys_scl_in} {fpga_sys_scl_in_ipin} -data
+create_boundary_pins {p:fpga_sys_sda_in} {fpga_sys_sda_in_ipin} -data
+create_boundary_pins {p:mcio_scl_in} {mcio_scl_in_ipin} -data
+create_boundary_pins {p:mcio_sda_in} {mcio_sda_in_ipin} -data
+create_boundary_pins {p:fpga_sys_scl_oe} {fpga_sys_scl_oe_opin} -data
+create_boundary_pins {p:fpga_sys_scl_out} {fpga_sys_scl_out_opin} -data
+create_boundary_pins {p:fpga_sys_sda_oe} {fpga_sys_sda_oe_opin} -data
+create_boundary_pins {p:fpga_sys_sda_out} {fpga_sys_sda_out_opin} -data
+create_boundary_pins {p:mcio_oe1_l} {mcio_oe1_l_opin} -data
+create_boundary_pins {p:mcio_oe1_l_oe} {mcio_oe1_l_oe_opin} -data
+create_boundary_pins {p:mcio_oe_45_l} {mcio_oe_45_l_opin} -data
+create_boundary_pins {p:mcio_oe_45_l_oe} {mcio_oe_45_l_oe_opin} -data
+create_boundary_pins {p:mcio_scl_oe} {mcio_scl_oe_opin} -data
+create_boundary_pins {p:mcio_scl_out} {mcio_scl_out_opin} -data
+create_boundary_pins {p:mcio_sda_oe} {mcio_sda_oe_opin} -data
+create_boundary_pins {p:mcio_sda_out} {mcio_sda_out_opin} -data
+# Boundary pins for vp_pll_nw_2
+create_boundary_pins {p:pll_nw_2_ref0_312p5_clk} {pll_nw_2_ref0_312p5_clk_ipin} -clock
+create_boundary_pins {p:vp_pll_nw_2_lock} {vp_pll_nw_2_lock_ipin} -data
+# Boundary pins for vp_pll_sw_2
+create_boundary_pins {p:pll_sw_2_ref1_312p5_clk} {pll_sw_2_ref1_312p5_clk_ipin} -clock
+create_boundary_pins {p:vp_pll_sw_2_lock} {vp_pll_sw_2_lock_ipin} -data
+# Boundary pin placement
+# Boundary pins for ethernet_0
+# Clocks and Resets
+set_placement -fixed -batch {p:ethernet_0_m0_ff_clk_divby2} {d:i_user_02_09_mt_00[0]}
+set_placement -fixed -batch {p:ethernet_0_m1_ff_clk_divby2} {d:i_user_02_09_mt_00[1]}
+set_placement -fixed -batch {p:ethernet_0_ref_clk_divby2} {d:i_user_02_09_mt_00[2]}
+# Free Running Counter
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[0]} {d:o_user_02_09_lut_06[27]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[1]} {d:o_user_02_09_bram_01[0]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[2]} {d:o_user_02_09_bram_01[2]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[3]} {d:o_user_02_09_bram_01[3]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[4]} {d:o_user_02_09_bram_01[4]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[5]} {d:o_user_02_09_bram_01[5]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[6]} {d:o_user_02_09_bram_01[7]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[7]} {d:o_user_02_09_bram_01[8]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[8]} {d:o_user_02_09_bram_01[9]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[9]} {d:o_user_02_09_bram_01[10]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[10]} {d:o_user_02_09_bram_01[12]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[11]} {d:o_user_02_09_bram_01[13]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[12]} {d:o_user_02_09_bram_01[14]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[13]} {d:o_user_02_09_bram_01[15]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[14]} {d:o_user_02_09_bram_01[17]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[15]} {d:o_user_02_09_bram_01[18]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[16]} {d:o_user_02_09_bram_01[19]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[17]} {d:o_user_02_09_bram_01[20]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[18]} {d:o_user_02_09_bram_01[22]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[19]} {d:o_user_02_09_bram_01[23]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[20]} {d:o_user_02_09_bram_01[24]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[21]} {d:o_user_02_09_bram_01[25]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[22]} {d:o_user_02_09_bram_01[27]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[23]} {d:o_user_02_09_mlp_01[0]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[24]} {d:o_user_02_09_mlp_01[1]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[25]} {d:o_user_02_09_mlp_01[2]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[26]} {d:o_user_02_09_mlp_01[4]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[27]} {d:o_user_02_09_mlp_01[5]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[28]} {d:o_user_02_09_mlp_01[6]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[29]} {d:o_user_02_09_mlp_01[7]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[30]} {d:o_user_02_09_mlp_01[9]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[31]} {d:o_user_02_09_mlp_01[10]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[32]} {d:o_user_02_09_mlp_01[11]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[33]} {d:o_user_02_09_mlp_01[12]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[34]} {d:o_user_02_09_mlp_01[14]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[35]} {d:o_user_02_09_mlp_01[15]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[36]} {d:o_user_02_09_mlp_01[16]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[37]} {d:o_user_02_09_mlp_01[17]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[38]} {d:o_user_02_09_mlp_01[19]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[39]} {d:o_user_02_09_mlp_01[20]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[40]} {d:o_user_02_09_mlp_01[21]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[41]} {d:o_user_02_09_mlp_01[22]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[42]} {d:o_user_02_09_mlp_01[24]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[43]} {d:o_user_02_09_mlp_01[25]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[44]} {d:o_user_02_09_mlp_01[26]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[45]} {d:o_user_02_09_mlp_01[27]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[46]} {d:o_user_02_09_lut_07[1]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[47]} {d:o_user_02_09_lut_07[2]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[48]} {d:o_user_02_09_lut_07[3]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[49]} {d:o_user_02_09_lut_07[4]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[50]} {d:o_user_02_09_lut_07[5]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[51]} {d:o_user_02_09_lut_07[7]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[52]} {d:o_user_02_09_lut_07[8]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[53]} {d:o_user_02_09_lut_07[9]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[54]} {d:o_user_02_09_lut_07[10]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[55]} {d:o_user_02_09_lut_07[12]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[56]} {d:o_user_02_09_lut_07[13]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[57]} {d:o_user_02_09_lut_07[14]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[58]} {d:o_user_02_09_lut_07[15]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[59]} {d:o_user_02_09_lut_07[17]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[60]} {d:o_user_02_09_lut_07[18]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[61]} {d:o_user_02_09_lut_07[19]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[62]} {d:o_user_02_09_lut_07[20]}
+set_placement -fixed -batch {p:ethernet_0_free_running_counter[63]} {d:o_user_02_09_lut_07[22]}
+# Quad MAC 0 Flow Control
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_enable[0]} {d:i_user_02_09_lut_18[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_enable[1]} {d:i_user_02_09_lut_18[2]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_enable[2]} {d:i_user_02_09_lut_18[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_enable[3]} {d:i_user_02_09_lut_18[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_en[0]} {d:i_user_02_09_lut_17[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_en[1]} {d:i_user_02_09_lut_17[20]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_en[2]} {d:i_user_02_09_lut_17[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_en[3]} {d:i_user_02_09_lut_17[23]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[0]} {d:i_user_02_09_mlp_03[27]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[1]} {d:i_user_02_09_lut_16[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[2]} {d:i_user_02_09_lut_16[2]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[3]} {d:i_user_02_09_lut_16[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[4]} {d:i_user_02_09_lut_16[7]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[5]} {d:i_user_02_09_lut_16[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[6]} {d:i_user_02_09_lut_16[9]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[7]} {d:i_user_02_09_lut_16[11]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[8]} {d:i_user_02_09_lut_16[12]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[9]} {d:i_user_02_09_lut_16[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[10]} {d:i_user_02_09_lut_16[14]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[11]} {d:i_user_02_09_lut_16[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[12]} {d:i_user_02_09_lut_16[17]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[13]} {d:i_user_02_09_lut_16[18]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[14]} {d:i_user_02_09_lut_16[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[15]} {d:i_user_02_09_lut_16[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[16]} {d:i_user_02_09_lut_16[22]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[17]} {d:i_user_02_09_lut_16[23]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[18]} {d:i_user_02_09_lut_16[24]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[19]} {d:i_user_02_09_lut_16[26]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[20]} {d:i_user_02_09_lut_16[27]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[21]} {d:i_user_02_09_lut_17[0]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[22]} {d:i_user_02_09_lut_17[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[23]} {d:i_user_02_09_lut_17[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[24]} {d:i_user_02_09_lut_17[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[25]} {d:i_user_02_09_lut_17[5]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[26]} {d:i_user_02_09_lut_17[6]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[27]} {d:i_user_02_09_lut_17[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[28]} {d:i_user_02_09_lut_17[9]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[29]} {d:i_user_02_09_lut_17[10]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[30]} {d:i_user_02_09_lut_17[11]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_pause_on[31]} {d:i_user_02_09_lut_17[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[0]} {d:o_user_02_09_lut_16[7]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[1]} {d:o_user_02_09_lut_16[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[2]} {d:o_user_02_09_lut_16[9]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[3]} {d:o_user_02_09_lut_16[11]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[4]} {d:o_user_02_09_lut_16[12]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[5]} {d:o_user_02_09_lut_16[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[6]} {d:o_user_02_09_lut_16[14]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[7]} {d:o_user_02_09_lut_16[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[8]} {d:o_user_02_09_lut_16[17]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[9]} {d:o_user_02_09_lut_16[18]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[10]} {d:o_user_02_09_lut_16[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[11]} {d:o_user_02_09_lut_16[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[12]} {d:o_user_02_09_lut_16[22]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[13]} {d:o_user_02_09_lut_16[23]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[14]} {d:o_user_02_09_lut_16[24]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[15]} {d:o_user_02_09_lut_16[26]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[16]} {d:o_user_02_09_lut_16[27]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[17]} {d:o_user_02_09_lut_17[0]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[18]} {d:o_user_02_09_lut_17[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[19]} {d:o_user_02_09_lut_17[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[20]} {d:o_user_02_09_lut_17[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[21]} {d:o_user_02_09_lut_17[5]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[22]} {d:o_user_02_09_lut_17[6]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[23]} {d:o_user_02_09_lut_17[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[24]} {d:o_user_02_09_lut_17[9]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[25]} {d:o_user_02_09_lut_17[10]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[26]} {d:o_user_02_09_lut_17[11]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[27]} {d:o_user_02_09_lut_17[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[28]} {d:o_user_02_09_lut_17[14]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[29]} {d:o_user_02_09_lut_17[15]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[30]} {d:o_user_02_09_lut_17[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_emac_xoff_gen[31]} {d:o_user_02_09_lut_17[18]}
+set_placement -fixed -batch {p:ethernet_0_quad0_lpi_txhold[0]} {d:o_user_02_09_lut_18[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_lpi_txhold[1]} {d:o_user_02_09_lut_18[2]}
+set_placement -fixed -batch {p:ethernet_0_quad0_lpi_txhold[2]} {d:o_user_02_09_lut_18[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_lpi_txhold[3]} {d:o_user_02_09_lut_18[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_mac_stop_tx[0]} {d:o_user_02_09_lut_17[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_mac_stop_tx[1]} {d:o_user_02_09_lut_17[20]}
+set_placement -fixed -batch {p:ethernet_0_quad0_mac_stop_tx[2]} {d:o_user_02_09_lut_17[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_mac_stop_tx[3]} {d:o_user_02_09_lut_17[23]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_hold_req[0]} {d:o_user_02_09_lut_18[6]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_hold_req[1]} {d:o_user_02_09_lut_18[7]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_hold_req[2]} {d:o_user_02_09_lut_18[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_hold_req[3]} {d:o_user_02_09_lut_18[9]}
+# Quad MAC 0 Status
+set_placement -fixed -batch {p:ethernet_0_m0_ffe_tx_ovr[0]} {d:i_user_02_09_lut_18[16]}
+set_placement -fixed -batch {p:ethernet_0_m0_ffe_tx_ovr[1]} {d:i_user_02_09_lut_18[17]}
+set_placement -fixed -batch {p:ethernet_0_m0_ffe_tx_ovr[2]} {d:i_user_02_09_lut_18[18]}
+set_placement -fixed -batch {p:ethernet_0_m0_ffe_tx_ovr[3]} {d:i_user_02_09_lut_18[19]}
+set_placement -fixed -batch {p:ethernet_0_m0_ffp_tx_ovr[0]} {d:i_user_02_09_lut_18[11]}
+set_placement -fixed -batch {p:ethernet_0_m0_ffp_tx_ovr[1]} {d:i_user_02_09_lut_18[12]}
+set_placement -fixed -batch {p:ethernet_0_m0_ffp_tx_ovr[2]} {d:i_user_02_09_lut_18[13]}
+set_placement -fixed -batch {p:ethernet_0_m0_ffp_tx_ovr[3]} {d:i_user_02_09_lut_18[14]}
+set_placement -fixed -batch {p:ethernet_0_m0_mac_tx_underflow[0]} {d:i_user_02_09_lut_18[21]}
+set_placement -fixed -batch {p:ethernet_0_m0_mac_tx_underflow[1]} {d:i_user_02_09_lut_18[22]}
+set_placement -fixed -batch {p:ethernet_0_m0_mac_tx_underflow[2]} {d:i_user_02_09_lut_18[23]}
+set_placement -fixed -batch {p:ethernet_0_m0_mac_tx_underflow[3]} {d:i_user_02_09_lut_18[24]}
+# Quad MAC 0 TSN
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[0]} {d:i_user_02_09_lut_05[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[1]} {d:i_user_02_09_lut_05[18]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[2]} {d:i_user_02_09_lut_05[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[3]} {d:i_user_02_09_lut_05[20]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[4]} {d:i_user_02_09_lut_05[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[5]} {d:i_user_02_09_lut_05[23]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[6]} {d:i_user_02_09_lut_05[24]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[7]} {d:i_user_02_09_lut_05[25]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[8]} {d:i_user_02_09_lut_05[26]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[9]} {d:i_user_02_09_lut_06[0]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[10]} {d:i_user_02_09_lut_06[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[11]} {d:i_user_02_09_lut_06[2]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[12]} {d:i_user_02_09_lut_06[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[13]} {d:i_user_02_09_lut_06[5]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[14]} {d:i_user_02_09_lut_06[6]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[15]} {d:i_user_02_09_lut_06[7]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[16]} {d:i_user_02_09_lut_06[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[17]} {d:i_user_02_09_lut_06[10]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[18]} {d:i_user_02_09_lut_06[11]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[19]} {d:i_user_02_09_lut_06[12]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[20]} {d:i_user_02_09_lut_06[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[21]} {d:i_user_02_09_lut_06[15]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[22]} {d:i_user_02_09_lut_06[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[23]} {d:i_user_02_09_lut_06[17]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[24]} {d:i_user_02_09_lut_06[18]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[25]} {d:i_user_02_09_lut_06[20]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[26]} {d:i_user_02_09_lut_06[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[27]} {d:i_user_02_09_lut_06[22]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[28]} {d:i_user_02_09_lut_06[23]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[29]} {d:i_user_02_09_lut_06[25]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[30]} {d:i_user_02_09_lut_06[26]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[31]} {d:i_user_02_09_lut_06[27]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[32]} {d:i_user_02_09_bram_01[0]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[33]} {d:i_user_02_09_bram_01[2]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[34]} {d:i_user_02_09_bram_01[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[35]} {d:i_user_02_09_bram_01[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[36]} {d:i_user_02_09_bram_01[5]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[37]} {d:i_user_02_09_bram_01[7]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[38]} {d:i_user_02_09_bram_01[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[39]} {d:i_user_02_09_bram_01[9]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[40]} {d:i_user_02_09_bram_01[10]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[41]} {d:i_user_02_09_bram_01[12]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[42]} {d:i_user_02_09_bram_01[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[43]} {d:i_user_02_09_bram_01[14]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[44]} {d:i_user_02_09_bram_01[15]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[45]} {d:i_user_02_09_bram_01[17]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[46]} {d:i_user_02_09_bram_01[18]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[47]} {d:i_user_02_09_bram_01[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[48]} {d:i_user_02_09_bram_01[20]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[49]} {d:i_user_02_09_bram_01[22]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[50]} {d:i_user_02_09_bram_01[23]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[51]} {d:i_user_02_09_bram_01[24]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[52]} {d:i_user_02_09_bram_01[25]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[53]} {d:i_user_02_09_bram_01[27]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[54]} {d:i_user_02_09_mlp_01[0]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[55]} {d:i_user_02_09_mlp_01[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[56]} {d:i_user_02_09_mlp_01[2]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[57]} {d:i_user_02_09_mlp_01[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[58]} {d:i_user_02_09_mlp_01[5]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[59]} {d:i_user_02_09_mlp_01[6]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[60]} {d:i_user_02_09_mlp_01[7]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[61]} {d:i_user_02_09_mlp_01[9]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[62]} {d:i_user_02_09_mlp_01[10]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[63]} {d:i_user_02_09_mlp_01[11]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[64]} {d:i_user_02_09_mlp_01[12]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[65]} {d:i_user_02_09_mlp_01[14]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[66]} {d:i_user_02_09_mlp_01[15]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[67]} {d:i_user_02_09_mlp_01[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[68]} {d:i_user_02_09_mlp_01[17]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[69]} {d:i_user_02_09_mlp_01[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[70]} {d:i_user_02_09_mlp_01[20]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[71]} {d:i_user_02_09_mlp_01[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[72]} {d:i_user_02_09_mlp_01[22]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[73]} {d:i_user_02_09_mlp_01[24]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[74]} {d:i_user_02_09_mlp_01[25]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[75]} {d:i_user_02_09_mlp_01[26]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[76]} {d:i_user_02_09_mlp_01[27]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[77]} {d:i_user_02_09_lut_07[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[78]} {d:i_user_02_09_lut_07[2]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[79]} {d:i_user_02_09_lut_07[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[80]} {d:i_user_02_09_lut_07[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[81]} {d:i_user_02_09_lut_07[5]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[82]} {d:i_user_02_09_lut_07[7]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[83]} {d:i_user_02_09_lut_07[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[84]} {d:i_user_02_09_lut_07[9]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[85]} {d:i_user_02_09_lut_07[10]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[86]} {d:i_user_02_09_lut_07[12]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[87]} {d:i_user_02_09_lut_07[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[88]} {d:i_user_02_09_lut_07[14]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[89]} {d:i_user_02_09_lut_07[15]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[90]} {d:i_user_02_09_lut_07[17]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[91]} {d:i_user_02_09_lut_07[18]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[92]} {d:i_user_02_09_lut_07[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[93]} {d:i_user_02_09_lut_07[20]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[94]} {d:i_user_02_09_lut_07[22]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[95]} {d:i_user_02_09_lut_07[23]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[96]} {d:i_user_02_09_lut_07[24]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[97]} {d:i_user_02_09_lut_07[25]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[98]} {d:i_user_02_09_lut_07[27]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[99]} {d:i_user_02_09_lut_08[0]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[100]} {d:i_user_02_09_lut_08[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[101]} {d:i_user_02_09_lut_08[2]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[102]} {d:i_user_02_09_lut_08[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[103]} {d:i_user_02_09_lut_08[5]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[104]} {d:i_user_02_09_lut_08[6]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[105]} {d:i_user_02_09_lut_08[7]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[106]} {d:i_user_02_09_lut_08[9]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[107]} {d:i_user_02_09_lut_08[10]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[108]} {d:i_user_02_09_lut_08[11]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[109]} {d:i_user_02_09_lut_08[12]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[110]} {d:i_user_02_09_lut_08[14]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[111]} {d:i_user_02_09_lut_08[15]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[112]} {d:i_user_02_09_lut_08[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[113]} {d:i_user_02_09_lut_08[17]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[114]} {d:i_user_02_09_lut_08[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[115]} {d:i_user_02_09_lut_08[20]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[116]} {d:i_user_02_09_lut_08[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[117]} {d:i_user_02_09_lut_08[22]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[118]} {d:i_user_02_09_lut_08[24]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[119]} {d:i_user_02_09_lut_08[25]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[120]} {d:i_user_02_09_lut_08[26]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[121]} {d:i_user_02_09_lut_08[27]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[122]} {d:i_user_02_09_lut_09[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[123]} {d:i_user_02_09_lut_09[2]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[124]} {d:i_user_02_09_lut_09[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[125]} {d:i_user_02_09_lut_09[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[126]} {d:i_user_02_09_lut_09[6]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[127]} {d:i_user_02_09_lut_09[7]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[128]} {d:i_user_02_09_lut_00[27]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[129]} {d:i_user_02_09_lut_01[0]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[130]} {d:i_user_02_09_lut_01[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[131]} {d:i_user_02_09_lut_01[2]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[132]} {d:i_user_02_09_lut_01[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[133]} {d:i_user_02_09_lut_01[5]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[134]} {d:i_user_02_09_lut_01[6]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[135]} {d:i_user_02_09_lut_01[7]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[136]} {d:i_user_02_09_lut_01[9]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[137]} {d:i_user_02_09_lut_01[10]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[138]} {d:i_user_02_09_lut_01[11]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[139]} {d:i_user_02_09_lut_01[12]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[140]} {d:i_user_02_09_lut_01[14]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[141]} {d:i_user_02_09_lut_01[15]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[142]} {d:i_user_02_09_lut_01[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[143]} {d:i_user_02_09_lut_01[17]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[144]} {d:i_user_02_09_lut_01[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[145]} {d:i_user_02_09_lut_01[20]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[146]} {d:i_user_02_09_lut_01[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[147]} {d:i_user_02_09_lut_01[22]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[148]} {d:i_user_02_09_lut_01[24]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[149]} {d:i_user_02_09_lut_01[25]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[150]} {d:i_user_02_09_lut_01[26]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[151]} {d:i_user_02_09_lut_01[27]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[152]} {d:i_user_02_09_lut_02[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[153]} {d:i_user_02_09_lut_02[2]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[154]} {d:i_user_02_09_lut_02[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[155]} {d:i_user_02_09_lut_02[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[156]} {d:i_user_02_09_lut_02[6]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[157]} {d:i_user_02_09_lut_02[7]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[158]} {d:i_user_02_09_lut_02[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[159]} {d:i_user_02_09_lut_02[9]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[160]} {d:i_user_02_09_lut_02[11]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[161]} {d:i_user_02_09_lut_02[12]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[162]} {d:i_user_02_09_lut_02[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[163]} {d:i_user_02_09_lut_02[14]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[164]} {d:i_user_02_09_lut_02[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[165]} {d:i_user_02_09_lut_02[17]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[166]} {d:i_user_02_09_lut_02[18]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[167]} {d:i_user_02_09_lut_02[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[168]} {d:i_user_02_09_lut_02[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[169]} {d:i_user_02_09_lut_02[22]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[170]} {d:i_user_02_09_lut_02[23]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[171]} {d:i_user_02_09_lut_02[24]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[172]} {d:i_user_02_09_lut_02[26]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[173]} {d:i_user_02_09_lut_02[27]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[174]} {d:i_user_02_09_bram_00[0]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[175]} {d:i_user_02_09_bram_00[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[176]} {d:i_user_02_09_bram_00[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[177]} {d:i_user_02_09_bram_00[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[178]} {d:i_user_02_09_bram_00[5]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[179]} {d:i_user_02_09_bram_00[6]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[180]} {d:i_user_02_09_bram_00[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[181]} {d:i_user_02_09_bram_00[9]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[182]} {d:i_user_02_09_bram_00[10]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[183]} {d:i_user_02_09_bram_00[11]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[184]} {d:i_user_02_09_bram_00[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[185]} {d:i_user_02_09_bram_00[14]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[186]} {d:i_user_02_09_bram_00[15]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[187]} {d:i_user_02_09_bram_00[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[188]} {d:i_user_02_09_bram_00[18]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[189]} {d:i_user_02_09_bram_00[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[190]} {d:i_user_02_09_bram_00[20]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[191]} {d:i_user_02_09_bram_00[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[192]} {d:i_user_02_09_bram_00[22]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[193]} {d:i_user_02_09_bram_00[24]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[194]} {d:i_user_02_09_bram_00[25]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[195]} {d:i_user_02_09_bram_00[26]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[196]} {d:i_user_02_09_bram_00[27]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[197]} {d:i_user_02_09_mlp_00[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[198]} {d:i_user_02_09_mlp_00[2]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[199]} {d:i_user_02_09_mlp_00[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[200]} {d:i_user_02_09_mlp_00[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[201]} {d:i_user_02_09_mlp_00[6]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[202]} {d:i_user_02_09_mlp_00[7]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[203]} {d:i_user_02_09_mlp_00[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[204]} {d:i_user_02_09_mlp_00[9]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[205]} {d:i_user_02_09_mlp_00[11]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[206]} {d:i_user_02_09_mlp_00[12]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[207]} {d:i_user_02_09_mlp_00[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[208]} {d:i_user_02_09_mlp_00[14]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[209]} {d:i_user_02_09_mlp_00[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[210]} {d:i_user_02_09_mlp_00[17]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[211]} {d:i_user_02_09_mlp_00[18]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[212]} {d:i_user_02_09_mlp_00[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[213]} {d:i_user_02_09_mlp_00[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[214]} {d:i_user_02_09_mlp_00[22]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[215]} {d:i_user_02_09_mlp_00[23]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[216]} {d:i_user_02_09_mlp_00[24]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[217]} {d:i_user_02_09_mlp_00[26]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[218]} {d:i_user_02_09_mlp_00[27]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[219]} {d:i_user_02_09_lut_03[0]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[220]} {d:i_user_02_09_lut_03[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[221]} {d:i_user_02_09_lut_03[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[222]} {d:i_user_02_09_lut_03[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[223]} {d:i_user_02_09_lut_03[5]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[224]} {d:i_user_02_09_lut_03[6]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[225]} {d:i_user_02_09_lut_03[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[226]} {d:i_user_02_09_lut_03[9]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[227]} {d:i_user_02_09_lut_03[10]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[228]} {d:i_user_02_09_lut_03[11]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[229]} {d:i_user_02_09_lut_03[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[230]} {d:i_user_02_09_lut_03[14]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[231]} {d:i_user_02_09_lut_03[15]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[232]} {d:i_user_02_09_lut_03[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[233]} {d:i_user_02_09_lut_03[18]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[234]} {d:i_user_02_09_lut_03[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[235]} {d:i_user_02_09_lut_03[20]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[236]} {d:i_user_02_09_lut_03[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[237]} {d:i_user_02_09_lut_03[23]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[238]} {d:i_user_02_09_lut_03[24]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[239]} {d:i_user_02_09_lut_03[25]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[240]} {d:i_user_02_09_lut_03[26]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[241]} {d:i_user_02_09_lut_04[0]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[242]} {d:i_user_02_09_lut_04[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[243]} {d:i_user_02_09_lut_04[2]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[244]} {d:i_user_02_09_lut_04[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[245]} {d:i_user_02_09_lut_04[5]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[246]} {d:i_user_02_09_lut_04[6]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[247]} {d:i_user_02_09_lut_04[7]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[248]} {d:i_user_02_09_lut_04[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[249]} {d:i_user_02_09_lut_04[10]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[250]} {d:i_user_02_09_lut_04[11]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[251]} {d:i_user_02_09_lut_04[12]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[252]} {d:i_user_02_09_lut_04[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[253]} {d:i_user_02_09_lut_04[15]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[254]} {d:i_user_02_09_lut_04[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts[255]} {d:i_user_02_09_lut_04[17]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_id[0]} {d:i_user_02_09_lut_12[5]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_id[1]} {d:i_user_02_09_lut_12[7]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_id[2]} {d:i_user_02_09_lut_12[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_id[3]} {d:i_user_02_09_lut_12[9]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_id[4]} {d:i_user_02_09_lut_12[10]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_id[5]} {d:i_user_02_09_lut_12[12]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_id[6]} {d:i_user_02_09_lut_12[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_id[7]} {d:i_user_02_09_lut_12[14]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_id[8]} {d:i_user_02_09_lut_12[15]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_id[9]} {d:i_user_02_09_lut_12[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_id[10]} {d:i_user_02_09_lut_12[18]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_id[11]} {d:i_user_02_09_lut_12[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_id[12]} {d:i_user_02_09_lut_12[20]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_id[13]} {d:i_user_02_09_lut_12[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_id[14]} {d:i_user_02_09_lut_12[23]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_id[15]} {d:i_user_02_09_lut_12[24]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_val[0]} {d:i_user_02_09_lut_12[0]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_val[1]} {d:i_user_02_09_lut_12[2]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_val[2]} {d:i_user_02_09_lut_12[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_tx_ts_val[3]} {d:i_user_02_09_lut_12[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[0]} {d:o_user_02_09_lut_10[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[1]} {d:o_user_02_09_lut_10[14]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[2]} {d:o_user_02_09_lut_10[15]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[3]} {d:o_user_02_09_lut_10[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[4]} {d:o_user_02_09_lut_10[18]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[5]} {d:o_user_02_09_lut_10[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[6]} {d:o_user_02_09_lut_10[20]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[7]} {d:o_user_02_09_lut_10[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[8]} {d:o_user_02_09_lut_10[23]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[9]} {d:o_user_02_09_lut_10[24]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[10]} {d:o_user_02_09_lut_10[25]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[11]} {d:o_user_02_09_lut_10[26]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[12]} {d:o_user_02_09_lut_10[27]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[13]} {d:o_user_02_09_bram_02[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[14]} {d:o_user_02_09_bram_02[2]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[15]} {d:o_user_02_09_bram_02[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[16]} {d:o_user_02_09_bram_02[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[17]} {d:o_user_02_09_bram_02[6]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[18]} {d:o_user_02_09_bram_02[7]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[19]} {d:o_user_02_09_bram_02[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[20]} {d:o_user_02_09_bram_02[9]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[21]} {d:o_user_02_09_bram_02[11]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[22]} {d:o_user_02_09_bram_02[12]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[23]} {d:o_user_02_09_bram_02[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[24]} {d:o_user_02_09_bram_02[14]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[25]} {d:o_user_02_09_bram_02[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[26]} {d:o_user_02_09_bram_02[17]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[27]} {d:o_user_02_09_bram_02[18]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[28]} {d:o_user_02_09_bram_02[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[29]} {d:o_user_02_09_bram_02[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[30]} {d:o_user_02_09_bram_02[22]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[31]} {d:o_user_02_09_bram_02[23]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[32]} {d:o_user_02_09_bram_02[24]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[33]} {d:o_user_02_09_bram_02[26]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[34]} {d:o_user_02_09_bram_02[27]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[35]} {d:o_user_02_09_mlp_02[0]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[36]} {d:o_user_02_09_mlp_02[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[37]} {d:o_user_02_09_mlp_02[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[38]} {d:o_user_02_09_mlp_02[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[39]} {d:o_user_02_09_mlp_02[5]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[40]} {d:o_user_02_09_mlp_02[6]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[41]} {d:o_user_02_09_mlp_02[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[42]} {d:o_user_02_09_mlp_02[9]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[43]} {d:o_user_02_09_mlp_02[10]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[44]} {d:o_user_02_09_mlp_02[11]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[45]} {d:o_user_02_09_mlp_02[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[46]} {d:o_user_02_09_mlp_02[14]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[47]} {d:o_user_02_09_mlp_02[15]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[48]} {d:o_user_02_09_mlp_02[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[49]} {d:o_user_02_09_mlp_02[18]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[50]} {d:o_user_02_09_mlp_02[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[51]} {d:o_user_02_09_mlp_02[20]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[52]} {d:o_user_02_09_mlp_02[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[53]} {d:o_user_02_09_mlp_02[23]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[54]} {d:o_user_02_09_mlp_02[24]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[55]} {d:o_user_02_09_mlp_02[25]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[56]} {d:o_user_02_09_mlp_02[26]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[57]} {d:o_user_02_09_lut_11[0]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[58]} {d:o_user_02_09_lut_11[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[59]} {d:o_user_02_09_lut_11[2]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[60]} {d:o_user_02_09_lut_11[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[61]} {d:o_user_02_09_lut_11[5]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[62]} {d:o_user_02_09_lut_11[6]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[63]} {d:o_user_02_09_lut_11[7]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[64]} {d:o_user_02_09_lut_11[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[65]} {d:o_user_02_09_lut_11[10]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[66]} {d:o_user_02_09_lut_11[11]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[67]} {d:o_user_02_09_lut_11[12]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[68]} {d:o_user_02_09_lut_11[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[69]} {d:o_user_02_09_lut_11[15]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[70]} {d:o_user_02_09_lut_11[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[71]} {d:o_user_02_09_lut_11[17]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[72]} {d:o_user_02_09_lut_11[18]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[73]} {d:o_user_02_09_lut_11[20]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[74]} {d:o_user_02_09_lut_11[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[75]} {d:o_user_02_09_lut_11[22]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[76]} {d:o_user_02_09_lut_11[23]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[77]} {d:o_user_02_09_lut_11[25]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[78]} {d:o_user_02_09_lut_11[26]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[79]} {d:o_user_02_09_lut_11[27]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[80]} {d:o_user_02_09_lut_12[0]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[81]} {d:o_user_02_09_lut_12[2]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[82]} {d:o_user_02_09_lut_12[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[83]} {d:o_user_02_09_lut_12[4]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[84]} {d:o_user_02_09_lut_12[5]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[85]} {d:o_user_02_09_lut_12[7]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[86]} {d:o_user_02_09_lut_12[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[87]} {d:o_user_02_09_lut_12[9]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[88]} {d:o_user_02_09_lut_12[10]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[89]} {d:o_user_02_09_lut_12[12]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[90]} {d:o_user_02_09_lut_12[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[91]} {d:o_user_02_09_lut_12[14]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[92]} {d:o_user_02_09_lut_12[15]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[93]} {d:o_user_02_09_lut_12[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[94]} {d:o_user_02_09_lut_12[18]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[95]} {d:o_user_02_09_lut_12[19]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[96]} {d:o_user_02_09_lut_12[20]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[97]} {d:o_user_02_09_lut_12[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[98]} {d:o_user_02_09_lut_12[23]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[99]} {d:o_user_02_09_lut_12[24]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[100]} {d:o_user_02_09_lut_12[25]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[101]} {d:o_user_02_09_lut_12[26]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[102]} {d:o_user_02_09_lut_13[0]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[103]} {d:o_user_02_09_lut_13[1]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[104]} {d:o_user_02_09_lut_13[2]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[105]} {d:o_user_02_09_lut_13[3]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[106]} {d:o_user_02_09_lut_13[5]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[107]} {d:o_user_02_09_lut_13[6]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[108]} {d:o_user_02_09_lut_13[7]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[109]} {d:o_user_02_09_lut_13[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[110]} {d:o_user_02_09_lut_13[10]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[111]} {d:o_user_02_09_lut_13[11]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[112]} {d:o_user_02_09_lut_13[12]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[113]} {d:o_user_02_09_lut_13[13]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[114]} {d:o_user_02_09_lut_13[15]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[115]} {d:o_user_02_09_lut_13[16]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[116]} {d:o_user_02_09_lut_13[17]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[117]} {d:o_user_02_09_lut_13[18]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[118]} {d:o_user_02_09_lut_13[20]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay[119]} {d:o_user_02_09_lut_13[21]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay_val[0]} {d:o_user_02_09_lut_10[8]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay_val[1]} {d:o_user_02_09_lut_10[9]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay_val[2]} {d:o_user_02_09_lut_10[10]}
+set_placement -fixed -batch {p:ethernet_0_quad0_peer_delay_val[3]} {d:o_user_02_09_lut_10[11]}
+# Boundary pins for noc
+# Boundary pins for pll_ddr
+set_placement -fixed -batch {p:pll_ddr_lock} {d:i_user_00_01_lut_17[0]}
+# Boundary pins for pll_eth_sys_ne_0
+set_placement -fixed -batch {p:pll_eth_sys_ne_0_lock} {d:i_user_12_08_lut_17[0]}
+# Boundary pins for pll_gddr_SE
+set_placement -fixed -batch {p:pll_gddr_SE_lock} {d:i_user_12_01_lut_17[0]}
+# Boundary pins for pll_gddr_SW
+set_placement -fixed -batch {p:pll_gddr_SW_lock} {d:i_user_00_01_lut_17[1]}
+# Boundary pins for pll_noc_ne_1
+set_placement -fixed -batch {p:i_clk} {d:i_user_06_09_trunk_00[21]}
+set_placement -fixed -batch {p:i_eth_ts_clk} {d:i_user_06_09_trunk_00[20]}
+set_placement -fixed -batch {p:i_reg_clk} {d:i_user_06_09_trunk_00[19]}
+set_placement -fixed -batch {p:pll_noc_ne_1_lock} {d:i_user_12_08_lut_17[1]}
+# Boundary pins for pll_pcie
+set_placement -fixed -batch {p:pll_pcie_lock} {d:i_user_12_08_lut_17[2]}
+# Boundary pins for vp_clkio_ne
+set_placement -fixed -batch {p:fpga_rst_l} {d:i_user_06_09_trunk_00[127]}
+# Boundary pins for vp_clkio_nw
+# Boundary pins for vp_clkio_se
+# Boundary pins for vp_clkio_sw
+# Boundary pins for vp_gpio_n_b0
+# Core Data
+set_placement -fixed -batch {p:ext_gpio_fpga_in[0]} {d:i_user_11_09_lut_13[15]}
+set_placement -fixed -batch {p:ext_gpio_fpga_in[1]} {d:i_user_11_09_lut_13[23]}
+set_placement -fixed -batch {p:ext_gpio_fpga_in[2]} {d:i_user_11_09_lut_14[3]}
+set_placement -fixed -batch {p:ext_gpio_fpga_in[3]} {d:i_user_11_09_lut_14[11]}
+set_placement -fixed -batch {p:ext_gpio_fpga_in[4]} {d:i_user_11_09_lut_14[19]}
+set_placement -fixed -batch {p:ext_gpio_fpga_in[5]} {d:i_user_11_09_lut_14[27]}
+set_placement -fixed -batch {p:ext_gpio_fpga_in[6]} {d:i_user_11_09_lut_15[7]}
+set_placement -fixed -batch {p:ext_gpio_fpga_in[7]} {d:i_user_11_09_lut_15[15]}
+set_placement -fixed -batch {p:ext_gpio_fpga_oe[0]} {d:o_user_11_09_lut_12[16]}
+set_placement -fixed -batch {p:ext_gpio_fpga_oe[1]} {d:o_user_11_09_lut_12[17]}
+set_placement -fixed -batch {p:ext_gpio_fpga_oe[2]} {d:o_user_11_09_lut_12[18]}
+set_placement -fixed -batch {p:ext_gpio_fpga_oe[3]} {d:o_user_11_09_lut_12[19]}
+set_placement -fixed -batch {p:ext_gpio_fpga_oe[4]} {d:o_user_11_09_lut_12[20]}
+set_placement -fixed -batch {p:ext_gpio_fpga_oe[5]} {d:o_user_11_09_lut_12[21]}
+set_placement -fixed -batch {p:ext_gpio_fpga_oe[6]} {d:o_user_11_09_lut_12[22]}
+set_placement -fixed -batch {p:ext_gpio_fpga_oe[7]} {d:o_user_11_09_lut_12[23]}
+set_placement -fixed -batch {p:ext_gpio_fpga_out[0]} {d:o_user_11_09_lut_13[12]}
+set_placement -fixed -batch {p:ext_gpio_fpga_out[1]} {d:o_user_11_09_lut_13[20]}
+set_placement -fixed -batch {p:ext_gpio_fpga_out[2]} {d:o_user_11_09_lut_14[0]}
+set_placement -fixed -batch {p:ext_gpio_fpga_out[3]} {d:o_user_11_09_lut_14[8]}
+set_placement -fixed -batch {p:ext_gpio_fpga_out[4]} {d:o_user_11_09_lut_14[16]}
+set_placement -fixed -batch {p:ext_gpio_fpga_out[5]} {d:o_user_11_09_lut_14[24]}
+set_placement -fixed -batch {p:ext_gpio_fpga_out[6]} {d:o_user_11_09_lut_15[4]}
+set_placement -fixed -batch {p:ext_gpio_fpga_out[7]} {d:o_user_11_09_lut_15[12]}
+set_placement -fixed -batch {p:ext_gpio_oe_l} {d:o_user_11_09_lut_12[24]}
+set_placement -fixed -batch {p:ext_gpio_oe_l_oe} {d:o_user_11_09_lut_12[14]}
+set_placement -fixed -batch {p:led_oe_l} {d:o_user_11_09_lut_13[4]}
+set_placement -fixed -batch {p:led_oe_l_oe} {d:o_user_11_09_lut_12[15]}
+# Boundary pins for vp_gpio_n_b1
+# Core Data
+set_placement -fixed -batch {p:ext_gpio_dir[0]} {d:o_user_11_09_lut_10[6]}
+set_placement -fixed -batch {p:ext_gpio_dir[1]} {d:o_user_11_09_lut_10[14]}
+set_placement -fixed -batch {p:ext_gpio_dir[2]} {d:o_user_11_09_lut_10[22]}
+set_placement -fixed -batch {p:ext_gpio_dir[3]} {d:o_user_11_09_lut_11[2]}
+set_placement -fixed -batch {p:ext_gpio_dir[4]} {d:o_user_11_09_lut_11[10]}
+set_placement -fixed -batch {p:ext_gpio_dir[5]} {d:o_user_11_09_lut_11[18]}
+set_placement -fixed -batch {p:ext_gpio_dir[6]} {d:o_user_11_09_lut_11[26]}
+set_placement -fixed -batch {p:ext_gpio_dir[7]} {d:o_user_11_09_lut_12[6]}
+set_placement -fixed -batch {p:ext_gpio_dir_oe[0]} {d:o_user_11_09_lut_09[10]}
+set_placement -fixed -batch {p:ext_gpio_dir_oe[1]} {d:o_user_11_09_lut_09[11]}
+set_placement -fixed -batch {p:ext_gpio_dir_oe[2]} {d:o_user_11_09_lut_09[12]}
+set_placement -fixed -batch {p:ext_gpio_dir_oe[3]} {d:o_user_11_09_lut_09[13]}
+set_placement -fixed -batch {p:ext_gpio_dir_oe[4]} {d:o_user_11_09_lut_09[14]}
+set_placement -fixed -batch {p:ext_gpio_dir_oe[5]} {d:o_user_11_09_lut_09[15]}
+set_placement -fixed -batch {p:ext_gpio_dir_oe[6]} {d:o_user_11_09_lut_09[16]}
+set_placement -fixed -batch {p:ext_gpio_dir_oe[7]} {d:o_user_11_09_lut_09[17]}
+set_placement -fixed -batch {p:led_l[4]} {d:o_user_11_09_lut_09[18]}
+set_placement -fixed -batch {p:led_l[5]} {d:o_user_11_09_lut_09[26]}
+set_placement -fixed -batch {p:led_l_oe[4]} {d:o_user_11_09_lut_09[8]}
+set_placement -fixed -batch {p:led_l_oe[5]} {d:o_user_11_09_lut_09[9]}
+# Boundary pins for vp_gpio_n_b2
+# Core Data
+set_placement -fixed -batch {p:led_l[0]} {d:o_user_11_09_lut_07[0]}
+set_placement -fixed -batch {p:led_l[1]} {d:o_user_11_09_lut_07[8]}
+set_placement -fixed -batch {p:led_l[2]} {d:o_user_11_09_lut_07[16]}
+set_placement -fixed -batch {p:led_l[3]} {d:o_user_11_09_lut_07[24]}
+set_placement -fixed -batch {p:led_l[6]} {d:o_user_11_09_lut_08[4]}
+set_placement -fixed -batch {p:led_l[7]} {d:o_user_11_09_lut_08[12]}
+set_placement -fixed -batch {p:led_l_oe[0]} {d:o_user_11_09_lut_06[4]}
+set_placement -fixed -batch {p:led_l_oe[1]} {d:o_user_11_09_lut_06[5]}
+set_placement -fixed -batch {p:led_l_oe[2]} {d:o_user_11_09_lut_06[6]}
+set_placement -fixed -batch {p:led_l_oe[3]} {d:o_user_11_09_lut_06[7]}
+set_placement -fixed -batch {p:led_l_oe[6]} {d:o_user_11_09_lut_06[8]}
+set_placement -fixed -batch {p:led_l_oe[7]} {d:o_user_11_09_lut_06[9]}
+# Boundary pins for vp_gpio_s_b0
+# Core Data
+set_placement -fixed -batch {p:fpga_avr_rxd} {d:i_user_10_00_lut_07[7]}
+set_placement -fixed -batch {p:fpga_ftdi_rxd} {d:i_user_10_00_lut_07[23]}
+set_placement -fixed -batch {p:fpga_i2c_mux_gnt} {d:i_user_10_00_lut_06[11]}
+set_placement -fixed -batch {p:irq_to_fpga} {d:i_user_10_00_lut_08[3]}
+set_placement -fixed -batch {p:qsfp_int_fpga_l} {d:i_user_10_00_lut_06[3]}
+set_placement -fixed -batch {p:fpga_avr_txd} {d:o_user_10_00_lut_07[26]}
+set_placement -fixed -batch {p:fpga_avr_txd_oe} {d:o_user_10_00_lut_06[16]}
+set_placement -fixed -batch {p:fpga_ftdi_txd} {d:o_user_10_00_lut_08[14]}
+set_placement -fixed -batch {p:fpga_ftdi_txd_oe} {d:o_user_10_00_lut_06[18]}
+set_placement -fixed -batch {p:fpga_i2c_req_l} {d:o_user_10_00_lut_07[18]}
+set_placement -fixed -batch {p:fpga_i2c_req_l_oe} {d:o_user_10_00_lut_06[15]}
+set_placement -fixed -batch {p:irq_to_avr} {d:o_user_10_00_lut_09[10]}
+set_placement -fixed -batch {p:irq_to_avr_oe} {d:o_user_10_00_lut_06[21]}
+set_placement -fixed -batch {p:test[1]} {d:o_user_10_00_lut_06[22]}
+set_placement -fixed -batch {p:test_oe[1]} {d:o_user_10_00_lut_06[12]}
+# Boundary pins for vp_gpio_s_b1
+# Core Clock
+set_placement -fixed -batch {p:mcio_vio_45_10_clk} {d:i_user_10_00_mt_00[1]}
+# Core Data
+set_placement -fixed -batch {p:mcio_vio_in[0]} {d:i_user_10_00_lut_03[14]}
+set_placement -fixed -batch {p:mcio_vio_in[1]} {d:i_user_10_00_lut_03[22]}
+set_placement -fixed -batch {p:mcio_vio_in[2]} {d:i_user_10_00_lut_04[2]}
+set_placement -fixed -batch {p:mcio_vio_in[3]} {d:i_user_10_00_lut_04[10]}
+set_placement -fixed -batch {p:mcio_dir[0]} {d:o_user_10_00_lut_05[8]}
+set_placement -fixed -batch {p:mcio_dir[1]} {d:o_user_10_00_lut_05[16]}
+set_placement -fixed -batch {p:mcio_dir[2]} {d:o_user_10_00_lut_05[24]}
+set_placement -fixed -batch {p:mcio_dir[3]} {d:o_user_10_00_lut_06[4]}
+set_placement -fixed -batch {p:mcio_dir_45} {d:o_user_10_00_lut_03[16]}
+set_placement -fixed -batch {p:mcio_dir_45_oe} {d:o_user_10_00_lut_03[6]}
+set_placement -fixed -batch {p:mcio_dir_oe[0]} {d:o_user_10_00_lut_03[12]}
+set_placement -fixed -batch {p:mcio_dir_oe[1]} {d:o_user_10_00_lut_03[13]}
+set_placement -fixed -batch {p:mcio_dir_oe[2]} {d:o_user_10_00_lut_03[14]}
+set_placement -fixed -batch {p:mcio_dir_oe[3]} {d:o_user_10_00_lut_03[15]}
+set_placement -fixed -batch {p:mcio_vio_oe[0]} {d:o_user_10_00_lut_03[8]}
+set_placement -fixed -batch {p:mcio_vio_oe[1]} {d:o_user_10_00_lut_03[9]}
+set_placement -fixed -batch {p:mcio_vio_oe[2]} {d:o_user_10_00_lut_03[10]}
+set_placement -fixed -batch {p:mcio_vio_oe[3]} {d:o_user_10_00_lut_03[11]}
+set_placement -fixed -batch {p:mcio_vio_out[0]} {d:o_user_10_00_lut_04[4]}
+set_placement -fixed -batch {p:mcio_vio_out[1]} {d:o_user_10_00_lut_04[12]}
+set_placement -fixed -batch {p:mcio_vio_out[2]} {d:o_user_10_00_lut_04[20]}
+set_placement -fixed -batch {p:mcio_vio_out[3]} {d:o_user_10_00_lut_05[0]}
+set_placement -fixed -batch {p:test[2]} {d:o_user_10_00_lut_03[24]}
+set_placement -fixed -batch {p:test_oe[2]} {d:o_user_10_00_lut_03[7]}
+# Boundary pins for vp_gpio_s_b2
+# Core Data
+set_placement -fixed -batch {p:fpga_sys_scl_in} {d:i_user_10_00_lut_01[21]}
+set_placement -fixed -batch {p:fpga_sys_sda_in} {d:i_user_10_00_lut_02[1]}
+set_placement -fixed -batch {p:mcio_scl_in} {d:i_user_10_00_lut_00[17]}
+set_placement -fixed -batch {p:mcio_sda_in} {d:i_user_10_00_lut_00[25]}
+set_placement -fixed -batch {p:fpga_sys_scl_oe} {d:o_user_10_00_lut_00[6]}
+set_placement -fixed -batch {p:fpga_sys_scl_out} {d:o_user_10_00_lut_02[2]}
+set_placement -fixed -batch {p:fpga_sys_sda_oe} {d:o_user_10_00_lut_00[7]}
+set_placement -fixed -batch {p:fpga_sys_sda_out} {d:o_user_10_00_lut_02[10]}
+set_placement -fixed -batch {p:mcio_oe1_l} {d:o_user_10_00_lut_01[14]}
+set_placement -fixed -batch {p:mcio_oe1_l_oe} {d:o_user_10_00_lut_00[4]}
+set_placement -fixed -batch {p:mcio_oe_45_l} {d:o_user_10_00_lut_01[22]}
+set_placement -fixed -batch {p:mcio_oe_45_l_oe} {d:o_user_10_00_lut_00[5]}
+set_placement -fixed -batch {p:mcio_scl_oe} {d:o_user_10_00_lut_00[2]}
+set_placement -fixed -batch {p:mcio_scl_out} {d:o_user_10_00_lut_00[26]}
+set_placement -fixed -batch {p:mcio_sda_oe} {d:o_user_10_00_lut_00[3]}
+set_placement -fixed -batch {p:mcio_sda_out} {d:o_user_10_00_lut_01[6]}
+# Boundary pins for vp_pll_nw_2
+set_placement -fixed -batch {p:pll_nw_2_ref0_312p5_clk} {d:i_user_06_09_trunk_00[0]}
+set_placement -fixed -batch {p:vp_pll_nw_2_lock} {d:i_user_00_08_lut_17[2]}
+# Boundary pins for vp_pll_sw_2
+set_placement -fixed -batch {p:pll_sw_2_ref1_312p5_clk} {d:i_user_06_00_trunk_00[3]}
+set_placement -fixed -batch {p:vp_pll_sw_2_lock} {d:i_user_00_01_lut_17[2]}
+
+######################################
+# End IO Ring Boundary Pin Placement File
+######################################
