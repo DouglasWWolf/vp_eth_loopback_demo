@@ -71,10 +71,14 @@ module project_top
     input  wire t_JTAG_INPUT   i_jtag_in,
     output wire t_JTAG_OUTPUT  o_jtag_out,
 
+    // This contains the top-level port list for Ethernet_0
+    `include "vectorpath_ethernet0_port_list.svh", 
+
     // This must be included in the port-list of any VectorPath project
     `include "vectorpath_rev1_port_list.svh"
 );
 
+    
     //-----------------------------------------------------------------------------------------------------
     // The system reset manager - Generates the active-low "resetn" signal
     //-----------------------------------------------------------------------------------------------------

@@ -1,0 +1,277 @@
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_20__stage_0_ (x_core.L[24][12].rlb.lg[1].ls[0].smux_seq_omux.seq[2])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_20__stage_1_ (x_core.L[24][11].rlb.lg[1].ls[0].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_20__stage_0_ (x_core.L[22][11].rlb.lg[2].ls[0].smux_seq_omux.seq[1])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_20__stage_1_ (x_core.L[21][9].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_21__stage_0_ (x_core.L[24][12].rlb.lg[1].ls[0].smux_seq_omux.seq[1])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_21__stage_1_ (x_core.L[24][11].rlb.lg[1].ls[1].smux_seq_omux.seq[2])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_21__stage_0_ (x_core.L[22][11].rlb.lg[2].ls[0].smux_seq_omux.seq[3])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_21__stage_1_ (x_core.L[21][9].rlb.lg[0].ls[1].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_22__stage_0_ (x_core.L[24][12].rlb.lg[1].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_22__stage_1_ (x_core.L[24][11].rlb.lg[1].ls[1].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_22__stage_0_ (x_core.L[22][11].rlb.lg[2].ls[0].smux_seq_omux.seq[2])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_22__stage_1_ (x_core.L[21][9].rlb.lg[0].ls[0].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_23__stage_0_ (x_core.L[24][11].rlb.lg[1].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_23__stage_1_ (x_core.L[24][11].rlb.lg[2].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_23__stage_0_ (x_core.L[24][11].rlb.lg[1].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_23__stage_1_ (x_core.L[22][9].rlb.lg[2].ls[1].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_24__stage_0_ (x_core.L[24][11].rlb.lg[0].ls[1].smux_seq_omux.seq[3])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_24__stage_1_ (x_core.L[23][12].rlb.lg[2].ls[0].smux_seq_omux.seq[3])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_24__stage_0_ (x_core.L[24][11].rlb.lg[0].ls[1].smux_seq_omux.seq[3])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_24__stage_1_ (x_core.L[22][9].rlb.lg[2].ls[1].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_25__stage_0_ (x_core.L[24][11].rlb.lg[0].ls[1].smux_seq_omux.seq[2])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_25__stage_1_ (x_core.L[23][12].rlb.lg[2].ls[0].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_25__stage_0_ (x_core.L[24][11].rlb.lg[0].ls[1].smux_seq_omux.seq[2])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_25__stage_1_ (x_core.L[23][9].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_26__stage_0_ (x_core.L[24][11].rlb.lg[0].ls[0].smux_seq_omux.seq[1])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_26__stage_1_ (x_core.L[24][12].rlb.lg[1].ls[1].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_26__stage_0_ (x_core.L[24][11].rlb.lg[0].ls[0].smux_seq_omux.seq[1])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_26__stage_1_ (x_core.L[23][9].rlb.lg[0].ls[0].smux_seq_omux.seq[2])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_27__stage_0_ (x_core.L[24][11].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_27__stage_1_ (x_core.L[23][12].rlb.lg[2].ls[1].smux_seq_omux.seq[2])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_27__stage_0_ (x_core.L[24][11].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_27__stage_1_ (x_core.L[23][9].rlb.lg[0].ls[0].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_28__stage_0_ (x_core.L[24][13].rlb.lg[1].ls[1].smux_seq_omux.seq[1])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_28__stage_1_ (x_core.L[23][13].rlb.lg[1].ls[0].smux_seq_omux.seq[2])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_28__stage_0_ (x_core.L[24][12].rlb.lg[0].ls[0].smux_seq_omux.seq[2])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_28__stage_1_ (x_core.L[23][10].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_29__stage_0_ (x_core.L[24][13].rlb.lg[1].ls[1].smux_seq_omux.seq[0])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_29__stage_1_ (x_core.L[23][13].rlb.lg[1].ls[0].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_29__stage_0_ (x_core.L[24][12].rlb.lg[0].ls[0].smux_seq_omux.seq[1])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_29__stage_1_ (x_core.L[23][10].rlb.lg[0].ls[0].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_30__stage_0_ (x_core.L[24][12].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_30__stage_1_ (x_core.L[24][11].rlb.lg[0].ls[0].smux_seq_omux.seq[2])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_31__stage_0_ (x_core.L[24][12].rlb.lg[0].ls[1].smux_seq_omux.seq[0])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_31__stage_1_ (x_core.L[24][11].rlb.lg[0].ls[1].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_32__stage_0_ (x_core.L[24][13].rlb.lg[1].ls[1].smux_seq_omux.seq[2])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_32__stage_1_ (x_core.L[23][13].rlb.lg[1].ls[1].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_32__stage_0_ (x_core.L[24][12].rlb.lg[0].ls[0].smux_seq_omux.seq[3])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_32__stage_1_ (x_core.L[24][11].rlb.lg[0].ls[1].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_33__stage_0_ (x_core.L[24][13].rlb.lg[2].ls[0].smux_seq_omux.seq[2])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_33__stage_1_ (x_core.L[23][13].rlb.lg[2].ls[0].smux_seq_omux.seq[3])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_33__stage_0_ (x_core.L[24][12].rlb.lg[0].ls[1].smux_seq_omux.seq[3])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_33__stage_1_ (x_core.L[24][11].rlb.lg[0].ls[0].smux_seq_omux.seq[3])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_34__stage_0_ (x_core.L[24][13].rlb.lg[2].ls[0].smux_seq_omux.seq[1])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_34__stage_1_ (x_core.L[23][13].rlb.lg[2].ls[0].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_34__stage_0_ (x_core.L[24][12].rlb.lg[0].ls[1].smux_seq_omux.seq[2])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_34__stage_1_ (x_core.L[24][10].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_35__stage_0_ (x_core.L[24][13].rlb.lg[2].ls[0].smux_seq_omux.seq[3])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_35__stage_1_ (x_core.L[23][13].rlb.lg[1].ls[1].smux_seq_omux.seq[3])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_35__stage_0_ (x_core.L[24][12].rlb.lg[0].ls[1].smux_seq_omux.seq[1])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_35__stage_1_ (x_core.L[23][10].rlb.lg[0].ls[1].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor.x_synch_arm.x_ff0 (x_core.L[21][10].rlb.lg[1].ls[1].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_36__stage_0_ (x_core.L[22][11].rlb.lg[2].ls[1].smux_seq_omux.seq[0])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_36__stage_1_ (x_core.L[22][11].rlb.lg[2].ls[1].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_36__stage_0_ (x_core.L[22][11].rlb.lg[2].ls[1].smux_seq_omux.seq[0])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_36__stage_1_ (x_core.L[22][8].rlb.lg[2].ls[0].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor.x_synch_full.x_ff0 (x_core.L[20][11].rlb.lg[0].ls[1].smux_seq_omux.seq[2])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor.x_wide_fifo.x_synch_async_rd.x_ff0 (x_core.L[19][10].rlb.lg[2].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_18__stage_1_ (x_core.L[15][12].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_9__stage_1_ (x_core.L[26][8].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_5__stage_1_ (x_core.L[26][4].rlb.lg[0].ls[0].smux_seq_omux.seq[3])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_5__stage_1_ (x_core.L[26][2].rlb.lg[0].ls[1].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_6__stage_1_ (x_core.L[26][4].rlb.lg[0].ls[1].smux_seq_omux.seq[3])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_6__stage_1_ (x_core.L[26][1].rlb.lg[0].ls[0].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_7__stage_1_ (x_core.L[26][4].rlb.lg[0].ls[1].smux_seq_omux.seq[2])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_7__stage_1_ (x_core.L[26][1].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_3__stage_1_ (x_core.L[26][4].rlb.lg[0].ls[1].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_3__stage_1_ (x_core.L[26][2].rlb.lg[0].ls[0].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_4__stage_1_ (x_core.L[26][4].rlb.lg[0].ls[1].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_4__stage_1_ (x_core.L[26][2].rlb.lg[0].ls[1].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_0__stage_1_ (x_core.L[26][4].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_0__stage_1_ (x_core.L[26][2].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_1__stage_1_ (x_core.L[26][4].rlb.lg[0].ls[0].smux_seq_omux.seq[2])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_1__stage_1_ (x_core.L[26][2].rlb.lg[0].ls[0].smux_seq_omux.seq[3])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_2__stage_1_ (x_core.L[26][4].rlb.lg[0].ls[0].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_2__stage_1_ (x_core.L[26][2].rlb.lg[0].ls[0].smux_seq_omux.seq[2])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_18__stage_1_ (x_core.L[13][9].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_9__stage_1_ (x_core.L[25][5].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor.fifo_rstn_p1 (x_core.L[19][11].rlb.lg[0].ls[1].smux_seq_omux.seq[1])
+Pipeline stage 2: debugger.x_snapshot.x_monitor.fifo_rstn_p2 (x_core.L[19][11].rlb.lg[0].ls[1].smux_seq_omux.seq[3])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_8__stage_0_ (x_core.L[23][18].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_8__stage_1_ (x_core.L[22][12].rlb.lg[0].ls[0].smux_seq_omux.seq[2])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_12__stage_0_ (x_core.L[15][6].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_12__stage_1_ (x_core.L[19][7].rlb.lg[2].ls[0].smux_seq_omux.seq[3])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_12__stage_0_ (x_core.L[14][3].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_12__stage_1_ (x_core.L[16][3].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_11__stage_0_ (x_core.L[15][6].rlb.lg[0].ls[0].smux_seq_omux.seq[1])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_11__stage_1_ (x_core.L[19][7].rlb.lg[2].ls[1].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_11__stage_0_ (x_core.L[14][3].rlb.lg[0].ls[0].smux_seq_omux.seq[1])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_11__stage_1_ (x_core.L[16][3].rlb.lg[0].ls[0].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_10__stage_0_ (x_core.L[15][6].rlb.lg[0].ls[0].smux_seq_omux.seq[2])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_10__stage_1_ (x_core.L[19][7].rlb.lg[2].ls[0].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_10__stage_0_ (x_core.L[15][3].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_10__stage_1_ (x_core.L[17][3].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_17__stage_0_ (x_core.L[15][6].rlb.lg[0].ls[1].smux_seq_omux.seq[1])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_17__stage_1_ (x_core.L[18][8].rlb.lg[2].ls[0].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_17__stage_0_ (x_core.L[15][6].rlb.lg[0].ls[1].smux_seq_omux.seq[1])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_17__stage_1_ (x_core.L[15][5].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_16__stage_0_ (x_core.L[15][6].rlb.lg[0].ls[1].smux_seq_omux.seq[2])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_16__stage_1_ (x_core.L[18][8].rlb.lg[2].ls[0].smux_seq_omux.seq[3])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_16__stage_0_ (x_core.L[13][4].rlb.lg[0].ls[0].smux_seq_omux.seq[1])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_16__stage_1_ (x_core.L[15][4].rlb.lg[0].ls[0].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_15__stage_0_ (x_core.L[15][6].rlb.lg[0].ls[1].smux_seq_omux.seq[3])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_15__stage_1_ (x_core.L[19][7].rlb.lg[2].ls[1].smux_seq_omux.seq[3])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_15__stage_0_ (x_core.L[15][6].rlb.lg[0].ls[1].smux_seq_omux.seq[3])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_15__stage_1_ (x_core.L[15][4].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_14__stage_0_ (x_core.L[15][6].rlb.lg[0].ls[0].smux_seq_omux.seq[3])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_14__stage_1_ (x_core.L[18][8].rlb.lg[2].ls[1].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_14__stage_0_ (x_core.L[14][3].rlb.lg[0].ls[0].smux_seq_omux.seq[2])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_14__stage_1_ (x_core.L[16][4].rlb.lg[0].ls[0].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_13__stage_0_ (x_core.L[15][6].rlb.lg[0].ls[1].smux_seq_omux.seq[0])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_13__stage_1_ (x_core.L[18][8].rlb.lg[2].ls[1].smux_seq_omux.seq[1])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_13__stage_0_ (x_core.L[14][3].rlb.lg[0].ls[0].smux_seq_omux.seq[3])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_13__stage_1_ (x_core.L[16][4].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_19__stage_0_ (x_core.L[17][11].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 2: debugger.x_snapshot.x_monitor_pipeline.pipeline_wide_19__stage_1_ (x_core.L[19][11].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_19__stage_0_ (x_core.L[15][8].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 2: debugger.x_snapshot.x_trigger_pipeline.pipeline_wide_19__stage_1_ (x_core.L[16][7].rlb.lg[0].ls[0].smux_seq_omux.seq[1])

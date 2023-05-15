@@ -1,0 +1,3 @@
+library (slowc_min_SSP765mV0CBCl) {
+include_file (/tools/Achronix/Achronix-linux/system/data/AC7t1500/timing_libs/SSP765mV0CBCl.lib)
+}

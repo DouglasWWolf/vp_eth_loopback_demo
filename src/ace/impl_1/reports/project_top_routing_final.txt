@@ -1,0 +1,68 @@
+        Routing Report - project_top
+        ____________________________
+
+ACE -- Achronix CAD Environment -- Version 9.0.1 -- Build  405518 -- Date 2023-03-01 00:42
+
+Design: vp_project - impl_1 - project_top
+Device: AC7t1500
+Generated on Mon May 15 11:12:24 PDT 2023
+Host: simtool-5
+
+Routing Summary =======
+
+   placed:                           2394 of 2394 instances.              
+   routed:                           1835 nets (of 1835 routable)         
+       source without sinks          0                                    
+       single in/inout pin           712                                  
+       driven by a port              0                                    
+       undriven                      0                                    
+       driver not placed             0                                    
+       driver is a blackbox          0                                    
+       average fanout                2.50791                              
+   length:                           0 segments for 5710 targets          
+   opens:                            0 (0 critical)                       
+       (sink driven by a port:       0 )                                  
+       (unplaced I/O target:         0 )                                  
+       (unplaced sinks:              0 )                                  
+       (sink undriven:               0 )                                  
+       unplaced constant:            0                                    
+       unplaced sourcepins:          0                                    
+       missing segments:             0                                    
+       unreached core sinks:         0                                    
+       missing io segments:          0                                    
+       unreached non-core sinks:     0                                    
+       unrouted constants:           0                                    
+       missing routing:              0                                    
+       antenna segments:             0                                    
+       unreached waypoints:          0                                    
+   overflows:                        0                                    
+       (I/O constant overflows:      0 )                                  
+   fanout-violations:                0                                    
+       driverless lut-pins:          0                                    
+       xbar11_5 problems:            0                                    
+       lut/split problems:           0                                    
+   illegal cross-country:            0                                    
+       Lut-routethroughs:            0                                    
+       I/O cell routes:              0                                    
+       other cell routes:            0                                    
+       cross-tile:                   0                                    
+       io-tile:                      0                                    
+       io-core:                      0                                    
+       io-io:                        0                                    
+       same-tile:                    0                                    
+       outside region boundary:      0                                    
+
+
+Clock routes =======
+
+   data segments on clock routes       0                                      
+   clock segments using data routes    17                                     
+
+   clock nets                          2 using data:                          
+                                       debugger.tck_core                      
+                                       ic_ew_luttile7.sg.slc27.u_mux4_clk:out 
+                                       nst_0.u_mux4_custom_acxprim_inst_3:out 
+                                       gdel.u_prog_clk_delay_2.u_ckmux2_6:out 
+                                       i_clk_ipin_net                         
+                                       x_core.NOC[1][1].branch.core.mux2[1]:Z 
+                                       x_core.NOC[2][1].branch.core.mux2[1]:Z 

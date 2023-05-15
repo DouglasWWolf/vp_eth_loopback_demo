@@ -1,0 +1,32 @@
+Enables (nets)
+-------
+	Enable: debugger.x_snapshot.capture_dr
+	Enable: debugger.x_snapshot.x_monitor.x_pre_store.rd_Z
+	Enable: debugger.x_snapshot.x_monitor.stimuli_valid6_Z
+	Enable: debugger.x_snapshot.x_monitor.initial_arm_reg4
+	Enable: debugger.x_snapshot.x_status.un1_i_capture
+	Enable: debugger.x_snapshot.x_dout.un1_s62_i_0
+	Enable: debugger.x_jtap_interface.x_select.un1_s8_i_0
+	Enable: debugger.x_snapshot.x_monitor.x_wide_fifo.local_bram_wren
+	Enable: sender_object.led_bits_0_sqmuxa_Z
+	Enable: sender_object.addr_1_sqmuxa
+	Enable: debugger.x_snapshot.x_stimuli.sce_0[0]
+	Enable: debugger.x_snapshot.x_trigger_info.un1_s44_i_0
+	Enable: debugger.x_snapshot.x_trigger_edge.un1_s26_i_0
+	Enable: debugger.x_snapshot.x_trigger_dont_care.un1_s35_i_0
+	Enable: debugger.x_snapshot.x_trigger_value.un1_s26_i_0
+	Enable: debugger.x_snapshot.x_acx_jtap_unit.d_shift_reg.sce[0]
+	Enable: debugger.x_snapshot.x_acx_jtap_unit.a_shift_reg.s_8
+	Enable: recvr_object.led_bits5_Z
+	Enable: debugger.x_snapshot.x_trigger_edge.un1_s26_i_0_RR_DUP_0
+	Enable: debugger.x_snapshot.x_trigger_dont_care.un1_s35_i_0_RR_DUP_1
+	Enable: debugger.x_snapshot.x_trigger_value.un1_s26_i_0_RR_DUP_2
+
+Resets (nets)
+------
+	Reset: debugger.x_snapshot.x_monitor_idle_state
+	Reset: debugger.dout_1
+	Reset: N_120_i[0]
+	Reset: N_120[0]
+	Reset: sender_object.N_472_i
+	Reset: debugger.x_snapshot.x_acx_jtap_unit_expect_data

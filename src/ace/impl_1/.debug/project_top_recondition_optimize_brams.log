@@ -1,0 +1,2 @@
+INFO: Pulling in Fabric Flops for BRAMs
+INFO: Cannot pull output flops into BRAM72K_SDP_T debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.x_ram: no flops on output 

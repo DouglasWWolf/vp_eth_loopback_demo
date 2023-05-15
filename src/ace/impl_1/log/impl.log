@@ -1,0 +1,900 @@
+
+------------------------------------------------------
+ACE -- Achronix CAD Environment -- Version 9.0.1 -- Build  405518 -- Date 2023-03-01 00:42
+The full session log may be found at /home/wolf/.achronix/ace_2023_05_15_10_51_14.log
+Implementation activated at 10:51:20 on 05/15/2023
+------------------------------------------------------
+ACE> run
+INFO: ===========================================
+INFO: Running flow step "run_prepare"
+INFO: ===========================================
+INFO: Loading technology libraries db...
+INFO: Loading AC7t1500 definition...
+INFO: Loading fabric db...
+INFO: Fabric load completed.
+INFO: Targeting AC7t1500 with package F53 at speed grade C2.  This is compatible with the following part ordering codes:
+INFO: AC7t1500-F53B1I2 AC7t1500-F53A1C2ES AC7t1500-F53B1C2ES AC7t1500-F53B1C2 AC7t1500-F53X1C2 AC7t1500-F53B1E2 
+INFO: Reading project verilog netlists...
+INFO: Reading netlist file /fpga/vp_eth_loopback_demo/output/syn/rev_1/netlist.vm
+INFO: File /fpga/vp_eth_loopback_demo/output/syn/rev_1/netlist.vm is a netlist synthesized by Synplify 2021.9.
+INFO: Netlist synthesized for part AC7t1500F53C2.
+-- Reading structural Verilog file /fpga/vp_eth_loopback_demo/output/syn/rev_1/netlist.vm
+/fpga/vp_eth_loopback_demo/output/syn/rev_1/netlist.vm(21039): INFO: setting project_top as top level module (VNLR-1015)
+INFO: Deleting existing guidefile /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_verify_guidefile
+INFO: Running netlist reconditioner...
+INFO: Reconditioning pre_flatten Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_recondition_pre_flatten.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Reading project partitions files...
+INFO: Flattening netlist project_top
+INFO: Reading project timing constraint files...
+INFO: Reading timing constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring.sdc
+INFO: Reading timing constraint file /fpga/vp_eth_loopback_demo/src/constraints/ace_constraints.sdc
+INFO: Reading timing constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_0C_slow.sdc
+INFO: Reading timing constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_0C_fast.sdc
+INFO: Reading timing constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_125C_slow.sdc
+INFO: Reading timing constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_125C_fast.sdc
+INFO: Reading timing constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_n40C_slow.sdc
+INFO: Reading timing constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_n40C_fast.sdc
+INFO: Reading project constraint files...
+INFO: Reading constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring.pdc
+INFO: Reading XML constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_util.xml
+INFO: Reading XML constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_power.xml
+Checking post_import Netlist project_top
+-- Checking netlist...
+INFO: Check complete (runtime = 00:00:00)
+INFO: Check returned: 0 errors and 0 warnings
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_import Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_recondition_post_import.log
+INFO: Disconnected 164 unnecessary port connections on 1 BRAM instances
+INFO: Deleted 135 zero-pin nets
+INFO: Disconnected 1125 LUT inputs (due to unnecessary SOURCE/LUT connections)
+INFO: Removed constant-1 set/reset pin from 8 DFF instances
+INFO: Disconnected 309 nets without drivers
+INFO: Deleted 1186 dangling output nets
+INFO: Converted 18 sources driving data pins to constant LUTs (source not available)
+INFO: Deleted 96 MUX2 instances (correcting MUX2s with constant select pins)
+INFO: Removed 203 dangling instances and 40 dangling nets that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Compiling design...
+INFO: Flattening netlist project_top
+INFO: Running constant propagation
+INFO: Running dangling logic removal
+INFO: Elaborating I/O cells ...
+INFO: Flattening netlist project_top
+INFO: Running constant propagation
+INFO: Running dangling logic removal
+INFO: Elaborating I/O cells ...
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_elaborate Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_recondition_post_elaborate.log
+INFO: Disconnected 66 don't care inputs from ALUs in 2 iterations
+INFO: Removed 1 dangling nets that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Elaborating I/O cells ...
+INFO: Mapping core cells ...
+INFO: Annotating timing constraints in ace
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/constraints/ace_constraints.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_0C_slow.sdc
+INFO: Saving Pre-Prepare checkpoint Acxdb Archive file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_prepared_initial.acxdb
+INFO: Active implementation database saved to file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_prepared_initial.acxdb
+INFO: Checking ACX_SNAPSHOT debugger.x_snapshot
+INFO: Wrote snapshot channel names to /fpga/vp_eth_loopback_demo/src/ace/impl_1/output/names.snapshot
+INFO: Also wrote snapshot channel names to /fpga/vp_eth_loopback_demo/src/ace/impl_1/output/vp_project_impl_1_names.snapshot
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_recondition_post_map.log
+INFO: Deleted 1 zero-pin nets
+INFO: Disconnected 1 LUT inputs (due to unnecessary SOURCE/LUT connections)
+INFO: Replaced 9 DFFs with Sources (correcting Source to DFF data input connections)
+INFO: Replaced 8 DFFs with Sources (correcting Source to DFF data input connections)
+INFO: Disconnected 6 LUT inputs (due to unnecessary SOURCE/LUT connections)
+INFO: Replaced 4 DFFs with Sources (correcting Source to DFF data input connections)
+INFO: Disconnected 12 LUT inputs (due to unnecessary SOURCE/LUT connections)
+INFO: Deleted 7 dangling output nets
+INFO: Removed 7 dangling instances that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Remapping entire design...
+INFO: Netlist optimization complete. (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_recondition_post_remap.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Initializing retiming log to file /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_directed_retiming.log , 
+INFO: Running Area Optimization...
+INFO: Rewired 0 pins to equivalent clocks
+INFO: Removed 39 dangling instances that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Area Optimization complete (runtime = 00:00:03)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_recondition_post_rewire_1.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Graph Rewriting.
+INFO: Removed 2 dangling instances that could not be reached from the primary outputs.  For detailed information enable the implementation option save_sweep_log_file.
+INFO: Moved 297 reset pins to LUTs.
+INFO: Removed 270 dangling instances that could not be reached from the primary outputs.  For detailed information enable the implementation option save_sweep_log_file.
+INFO: Made 284 applications of rules.
+INFO: Rewrite complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_recondition_post_rewrite_1.log
+INFO: Disconnected 557 LUT inputs (due to unnecessary SOURCE/LUT connections)
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Inserted 3 fanout buffers
+INFO: Fanout Buffering complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_recondition_post_fanout_3.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_recondition_post_fanout_4.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Flattening netlist project_top
+INFO: Transformed 1 inverting ALUs
+INFO: Deleted 125 inverters
+INFO: Fanout Buffering complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_recondition_post_fanout_6.log
+INFO: Disconnected non-unique input pins on 1 LUT instances
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Wrote clock report to /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_clocks_prepared.html
+INFO: Set existing defparam: used_as_reset on Instance: fpga_rst_l_ipin
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.x_r2c_usr2_tdo to location "d:o_ic2tap_usr2_tdo"
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.x_r2c_usr1_tdo to location "d:o_ic2tap_usr1_tdo"
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.x_r2c_update_dr to location "d:i_cfg2ic_update_dr"
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.x_r2c_shift_dr to location "d:i_cfg2ic_shift_dr"
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.x_r2c_capture_dr to location "d:i_cfg2ic_capture_dr"
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.x_r2c_usr2_sel to location "d:i_tap2ic_usr2_sel"
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.x_r2c_usr1_sel to location "d:i_tap2ic_usr1_sel"
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.x_r2c_tdi_core to location "d:i_cfg2ic_jtag_tdi"
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.x_r2c_jtag_reset_n to location "d:i_tap2ic_jtag_reset_n"
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.clk_ipin_tck to location "u_ic_south.u_ic_ns_tc0.u_ic_ns_trunktile.gclk_ipin[128]"
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_prepare Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_recondition_post_prepare.log
+INFO: Cloned 1 LUTs (correcting LUT to SEQ connections with multiple fanout)
+INFO: Permuted A and B inputs on 6 ALUs to improve related LUT packing
+INFO: Merged: 0 MLPs
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Wrote utilization report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_utilization_prepared.html
+INFO: Wrote utilization report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_utilization_prepared.txt
+WARNING: Net ethernet_1_m0_ff_clk_divby2 on top level Port ethernet_1_m0_ff_clk_divby2 does not have a valid pad connection.  Unable to process this pin. Please contact Achronix customer support.
+INFO: Wrote pin assignment report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_pins_prepared.html
+INFO: Wrote pin assignment report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_pins_prepared.txt
+INFO: Saving Post-Prepare checkpoint Acxdb Archive file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_prepared.acxdb
+INFO: Active implementation database saved to file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_prepared.acxdb
+Checking post_prepare Netlist project_top
+-- Checking netlist...
+WARNING: Found 3 top-level ports that are not connected to an I/O pin
+INFO: Check complete (runtime = 00:00:00)
+INFO: Check returned: 0 errors and 1 warnings
+INFO: See the log file "/fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_checker_post_prepare.log" for more information
+INFO: Flow step "run_prepare" completed in 45 seconds.  Peak memory usage is 5225 MB. Cputime 37 seconds.
+INFO: ===========================================
+INFO: Running flow step "run_place"
+INFO: ===========================================
+INFO: Running reset removal
+INFO: No Reset removal work to do
+INFO: Running vmode removal
+INFO: No vmode blocks detected
+INFO: Transmitting routing visualization update...
+INFO: Completed transmitting routing visualization data
+INFO: Unplaced 0 instances
+Checking pre_pnr Netlist project_top
+-- Checking IO Assignment...
+-- Checking pre-placement...
+-- Checking netlist...
+WARNING: Found 3 top-level ports that are not connected to an I/O pin
+INFO: Check complete (runtime = 00:00:00)
+INFO: Check returned: 0 errors and 1 warnings
+INFO: See the log file "/fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_checker_pre_pnr.log" for more information
+INFO: Boundary placement: Placing ASCs...
+INFO: Running automatic placement region creation...
+Running global placement on netlist project_top...
+Created 1 fast-feedback clusters
+INFO: Routability Driven Clustering
+INFO: Created 167 routability-driven clusters
+INFO: Building modules from pre-clustering
+-- Phase 0 took 0.8s (1/1,100:559)
+-- Phase 1 took 0.0s (0/0,0:559)
+-- Phase 2 took 0.1s (1/1,100:376)
+-- Phase 3 took 0.6+0.4s (4/5,307:1038)
+-- Phase 4 took 1.1s (4/7,314:1012)
+INFO: Block placement took 00:00:00
+INFO: IO placement took 00:00:00
+INFO: Global Placement complete (runtime = 00:00:07)
+INFO: Wrote placement report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_placement_global.txt
+INFO: Writing Report File completed /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_placement_global.txt (runtime = 00:00:01)
+INFO: Placing special I/Os ...
+INFO: Running Placement Validation...
+INFO: top dims: 268, 310
+Recreated 1 fast-feedback clusters
+INFO: Placing 1 fast-feedback clusters
+INFO: Placement Validation complete (runtime = 00:00:03)
+INFO: Running Find WideGates...
+INFO: Post-Placement Pin Re-Assignment...
+INFO: Placement Find WideGates complete (runtime = 00:00:03)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_place Netlist project_top
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Running Placement-based cloning...
+INFO: Running Netlist Optimization...
+INFO: Netlist Optimization complete (runtime = 00:00:00)
+INFO: Deleted 0 inverters
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_place Netlist project_top
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Active implementation database saved to file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_placed_loweffort.acxdb
+INFO: Writing project_top_placed_loweffort.acxdb completed (runtime = 00:00:01)
+INFO: Running Area Optimization...
+INFO: Rewired 0 pins to equivalent clocks
+INFO: Removed 17 dangling instances that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Removed 5 dangling instances and 2 dangling nets that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Area Optimization complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_place Netlist project_top
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Running Placement Optimization...
+Recreated 1 fast-feedback clusters
+INFO: Optimized 1 fast-connect clusters
+INFO: Placement Optimize FastConnect complete (runtime = 00:00:01)
+INFO: Running Placement Optimization...
+INFO: Detected 127 pipeline flops, but only unplaced 0 flops
+INFO: Placement Optimization complete (runtime = 00:00:01)
+INFO: Active implementation database saved to file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_placed_higheffort.acxdb
+INFO: Writing project_top_placed_higheffort.acxdb completed (runtime = 00:00:00)
+INFO: Running Area Optimization...
+INFO: Rewired 0 pins to equivalent clocks
+INFO: Removed 4 dangling instances and 2 dangling nets that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Area Optimization complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_place Netlist project_top
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Placement Legalizer Cleanup complete (runtime = 00:00:00)
+INFO: Running Placement Validation...
+INFO: top dims: 268, 310
+Recreated 1 fast-feedback clusters
+INFO: Placing 1 fast-feedback clusters
+INFO: Placement Validation complete (runtime = 00:00:02)
+INFO: Rewired 0 pins to equivalent clocks
+INFO: Rewire Equivalent Clocks (runtime = 00:00:00)
+INFO: tile optimize time 0:00.10
+INFO: Saving Post-Place checkpoint Acxdb Archive file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_placed.acxdb
+INFO: Active implementation database saved to file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_placed.acxdb
+INFO: Writing project_top_placed.acxdb completed (runtime = 00:00:01)
+INFO: Wrote utilization report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_utilization_placed.html
+INFO: Wrote utilization report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_utilization_placed.txt
+INFO: Wrote clock report to /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_clocks_placed.html
+Checking post_place Netlist project_top
+-- Checking IO Assignment...
+-- Checking boundary placement...
+-- Checking placement...
+-- Checking netlist...
+WARNING: Found 3 top-level ports that are not connected to an I/O pin
+INFO: Check complete (runtime = 00:00:04)
+INFO: Check returned: 0 errors and 1 warnings
+INFO: See the log file "/fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_checker_post_place.log" for more information
+INFO: Flow step "run_place" completed in 27 seconds.  Peak memory usage is 5261 MB. Cputime 33 seconds.
+INFO: ===========================================
+INFO: Running flow step "run_route"
+INFO: ===========================================
+INFO: Unplaced 0 instances
+INFO: Running reset removal
+INFO: No Reset removal work to do
+INFO: Running vmode removal
+INFO: No vmode blocks detected
+INFO: Multithread: based on placement area, number of threads set to 1
+INFO: ace:router:Routing 1792 of 2498 nets, timing-driven.
+INFO: Bus wires usage enabled
+INFO: ace:router: Router-setup runtime 0:04.70 ; wallclock 0:04.74
+INFO:     2                           i_clk_ipin_net	doms  2 (core  1,regions  2 [ 2  0]) ........FF...... routed drep                     i_clk    #  
+INFO:     1                        debugger.tck_core	doms  2 (core  1,regions  1 [ 1  0]) ........F....... routed drep                       tck    #  
+INFO:     1     ethernet_0_m0_ff_clk_divby2_ipin_net	doms  2 (core  0,regions  0 [ 0  0]) ...#............        drep ethernet_0_m0_ff_clk_divb       
+INFO:     1     ethernet_0_m1_ff_clk_divby2_ipin_net	doms  2 (core  0,regions  0 [ 0  0]) ...#............        drep ethernet_0_m1_ff_clk_divb       
+INFO:     1       ethernet_0_ref_clk_divby2_ipin_net	doms  2 (core  0,regions  0 [ 0  0]) ...#............        drep ethernet_0_ref_clk_divby2       
+INFO:     1              mcio_vio_45_10_clk_ipin_net	doms  2 (core  0,regions  0 [ 0  0]) ............#...        drep        mcio_vio_45_10_clk       
+INFO: ace:router: Initial-clock-route runtime 0:01.12 ; wallclock 0:01.18
+INFO: SUMMARY: same tile 513, short neighbour 0, far neighbour 0
+INFO: Active implementation database saved to file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_routed_after_singlepin.acxdb
+INFO: ace:router: Initial-route runtime 0:03.61 ; wallclock 0:03.70
+INFO: ace:router:Initial: 1768 of 1781 nets routed, 2228 overflows, 4 max edge, 23591, 2536, 901, 863, 18087, 1204, 8653
+INFO: ace:router: Resolve-congestion runtime 0:03.04 ; wallclock 0:03.34
+INFO: ace:router: Post-opt runtime 0:04.55 ; wallclock 0:04.64
+INFO: ace:router: Clock-skew-opt-and-misc runtime 0:00.27 ; wallclock 0:00.28
+INFO: All-temperature hold-time fixing.
+INFO: HM : 9
+INFO: ace:router: Hold-fixing runtime 1:36.24 ; wallclock 1:37.39
+INFO: ace:router:Final: 4 iterations, 0 overflows..
+INFO: ace:router:Final: 3788484 : 0 
+INFO: ace:router:Final: 22693, 2663, 1132, 874, 17415, 139, 609, 9297
+INFO: ace:router: Post-route runtime 0:00.92 ; wallclock 0:00.94
+INFO: ace:router: Total router runtime 1:54.45 ; wallclock 1:56.23 ; memory 7449 MB
+INFO: Wrote clock report to /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_clocks_routed.html
+INFO: Wrote utilization report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_utilization_routed.html
+INFO: Wrote utilization report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_utilization_routed.txt
+INFO: (bitstream/set_inversion): Computing inversion pattern.
+INFO: Saving Post-Route checkpoint Acxdb Archive file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_routed.acxdb
+INFO: Active implementation database saved to file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_routed.acxdb
+Checking post_route Netlist project_top
+-- Checking IO Assignment...
+-- Checking routing...
+-- Checking boundary placement...
+-- Checking placement...
+INFO: Check complete (runtime = 00:00:03)
+INFO: Check returned: 0 errors and 0 warnings
+INFO: Saved clock pre-route constraints to file /fpga/vp_eth_loopback_demo/src/ace/impl_1/output/project_top_clock_preroutes.pdc
+INFO: Flow step "run_route" completed in 141 seconds.  Peak memory usage is 7525 MB. Cputime 137 seconds.
+INFO: ===========================================
+INFO: Running flow step "report_timing_routed"
+INFO: ===========================================
+INFO: Loading fabric db...
+INFO: Fabric load completed.
+INFO: Timing analysis for temperature 0C
+INFO: Running Timing Analysis
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/constraints/ace_constraints.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_0C_fast.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/constraints/ace_constraints.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_0C_slow.sdc
+INFO: Calculating upper limits of clock frequencies
+INFO: Timing analysis completed.
+INFO: Current Timing
+INFO: Clock: i_clk; target: 100.0 MHz; upper-limit: 351.7 MHz; meets timing: setup yes (+7.157ns), hold yes (+0.010ns)
+INFO: Clock: tck; target: 25.0 MHz; upper-limit: 162.3 MHz; meets timing: setup yes (+16.919ns), hold yes (+0.003ns)
+INFO: Wrote Timing Report to /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_timing_routed_C2_0p85V_0C.html
+INFO: Loading fabric db...
+INFO: Fabric load completed.
+INFO: Flow step "report_timing_routed" completed in 25 seconds.  Peak memory usage is 7525 MB. Cputime 24 seconds.
+INFO: ===========================================
+INFO: Running flow step "post_process"
+INFO: ===========================================
+INFO: Post-processing place and route results... 
+INFO: Running reset removal
+INFO: No Reset removal work to do
+INFO: Running vmode removal
+INFO: No vmode blocks detected
+INFO: Disabling unused sites (added 0 instances)
+INFO: Multithread: based on placement area, number of threads set to 1
+INFO: ace:router:Routing 11 of 2550 nets
+INFO: ace:router:  2 nets (1113 pins) prerouted.
+INFO: Bus wires usage enabled
+INFO: ace:router: Router-setup runtime 0:03.84 ; wallclock 0:03.91
+INFO:     2                           i_clk_ipin_net	doms  2 (core  1,regions  2 [ 2  0]) ........FF...... routed drep                     i_clk    #  
+INFO:     1                        debugger.tck_core	doms  2 (core  1,regions  1 [ 1  0]) ........F....... routed drep                       tck    #  
+INFO:     1     ethernet_0_m0_ff_clk_divby2_ipin_net	doms  2 (core  0,regions  0 [ 0  0]) ...#............        drep ethernet_0_m0_ff_clk_divb       
+INFO:     1     ethernet_0_m1_ff_clk_divby2_ipin_net	doms  2 (core  0,regions  0 [ 0  0]) ...#............        drep ethernet_0_m1_ff_clk_divb       
+INFO:     1       ethernet_0_ref_clk_divby2_ipin_net	doms  2 (core  0,regions  0 [ 0  0]) ...#............        drep ethernet_0_ref_clk_divby2       
+INFO:     1              mcio_vio_45_10_clk_ipin_net	doms  2 (core  0,regions  0 [ 0  0]) ............#...        drep        mcio_vio_45_10_clk       
+INFO: ace:router: Initial-clock-route runtime 0:01.23 ; wallclock 0:01.29
+INFO: ace:router:Initial: 0 of 2 nets routed, 0 overflows, 1 max edge, 0, 0, 0, 0, 0, 0, 0
+INFO: ace:router: Resolve-congestion runtime 0:02.34 ; wallclock 0:02.45
+INFO: ace:router: Post-opt runtime 0:00.66 ; wallclock 0:00.65
+INFO: ace:router: Clock-skew-opt-and-misc runtime 0:00.34 ; wallclock 0:00.36
+INFO: ace:router: Hold-fixing runtime 0:00.16 ; wallclock 0:00.17
+INFO: ace:router:Final: 0 iterations, 0 overflows in the boundary..
+INFO: ace:router:Final: 0 : 0 
+INFO: ace:router:Final: 0, 0, 0, 0, 0, 0, 0
+INFO: ace:router: Post-route runtime 0:00.02 ; wallclock 0:00.07
+INFO: ace:router: Total router runtime 0:08.59 ; wallclock 0:08.89 ; memory 7681 MB
+INFO: (bitstream/set_inversion): Computing inversion pattern.
+INFO: Saved clock pre-route constraints to file /fpga/vp_eth_loopback_demo/src/ace/impl_1/output/project_top_clock_preroutes.pdc
+INFO: Flow step "post_process" completed in 16 seconds.  Peak memory usage is 7769 MB. Cputime 14 seconds.
+INFO: ===========================================
+INFO: Running flow step "final_drc_checks"
+INFO: ===========================================
+INFO: Running Final DRC Checks...
+Checking final_drc Netlist project_top
+-- Checking IO Assignment...
+-- Checking routing...
+-- Checking placement...
+-- Checking netlist...
+ERROR: Found 3 top-level ports that are not connected to an I/O pin
+INFO: Check complete (runtime = 00:00:04)
+INFO: Check returned: 1 errors and 0 warnings
+INFO: See the log file "/fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_checker_final_drc.log" for more information
+WARNING: Net ethernet_1_m0_ff_clk_divby2 on top level Port ethernet_1_m0_ff_clk_divby2 does not have a valid pad connection.  Unable to process this pin. Please contact Achronix customer support.
+ERROR: Final DRC Checks failed
+ERROR: Flow step "final_drc_checks" failed in 4 seconds.  Peak memory usage is 7769 MB. Cputime 3 seconds.
+INFO: ===========================================
+ERROR: Overall flow failed in 258 seconds.  Peak memory usage is 7769 MB. Cputime 249 seconds.
+INFO: ===========================================
+INFO: Transmitting metadata...
+INFO: Completed transmitting metadata.
+INFO: Transmitting placement visualization data...
+INFO: Completed transmitting placement visualization data
+INFO: Transmitting routing visualization data...
+INFO: Completed transmitting routing visualization data
+ACE> run
+INFO: ===========================================
+INFO: Running flow step "run_prepare"
+INFO: ===========================================
+INFO: Loading technology libraries db...
+INFO: Loading AC7t1500 definition...
+INFO: Loading fabric db...
+INFO: Fabric load completed.
+INFO: Targeting AC7t1500 with package F53 at speed grade C2.  This is compatible with the following part ordering codes:
+INFO: AC7t1500-F53B1I2 AC7t1500-F53A1C2ES AC7t1500-F53B1C2ES AC7t1500-F53B1C2 AC7t1500-F53X1C2 AC7t1500-F53B1E2 
+INFO: Reading project verilog netlists...
+INFO: Reading netlist file /fpga/vp_eth_loopback_demo/output/syn/rev_1/netlist.vm
+INFO: File /fpga/vp_eth_loopback_demo/output/syn/rev_1/netlist.vm is a netlist synthesized by Synplify 2021.9.
+INFO: Netlist synthesized for part AC7t1500F53C2.
+-- Reading structural Verilog file /fpga/vp_eth_loopback_demo/output/syn/rev_1/netlist.vm
+/fpga/vp_eth_loopback_demo/output/syn/rev_1/netlist.vm(21039): INFO: setting project_top as top level module (VNLR-1015)
+INFO: Deleting existing guidefile /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_verify_guidefile
+INFO: Running netlist reconditioner...
+INFO: Reconditioning pre_flatten Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_recondition_pre_flatten.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Reading project partitions files...
+INFO: Flattening netlist project_top
+INFO: Reading project timing constraint files...
+INFO: Reading timing constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring.sdc
+INFO: Reading timing constraint file /fpga/vp_eth_loopback_demo/src/constraints/ace_constraints.sdc
+INFO: Reading timing constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_0C_slow.sdc
+INFO: Reading timing constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_0C_fast.sdc
+INFO: Reading timing constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_125C_slow.sdc
+INFO: Reading timing constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_125C_fast.sdc
+INFO: Reading timing constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_n40C_slow.sdc
+INFO: Reading timing constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_n40C_fast.sdc
+INFO: Reading project constraint files...
+INFO: Reading constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring.pdc
+INFO: Reading XML constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_util.xml
+INFO: Reading XML constraint file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_power.xml
+Checking post_import Netlist project_top
+-- Checking netlist...
+INFO: Check complete (runtime = 00:00:00)
+INFO: Check returned: 0 errors and 0 warnings
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_import Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_recondition_post_import.log
+INFO: Disconnected 164 unnecessary port connections on 1 BRAM instances
+INFO: Deleted 135 zero-pin nets
+INFO: Disconnected 1125 LUT inputs (due to unnecessary SOURCE/LUT connections)
+INFO: Removed constant-1 set/reset pin from 8 DFF instances
+INFO: Disconnected 309 nets without drivers
+INFO: Deleted 1186 dangling output nets
+INFO: Converted 18 sources driving data pins to constant LUTs (source not available)
+INFO: Deleted 96 MUX2 instances (correcting MUX2s with constant select pins)
+INFO: Removed 203 dangling instances and 40 dangling nets that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Compiling design...
+INFO: Flattening netlist project_top
+INFO: Running constant propagation
+INFO: Running dangling logic removal
+INFO: Elaborating I/O cells ...
+INFO: Flattening netlist project_top
+INFO: Running constant propagation
+INFO: Running dangling logic removal
+INFO: Elaborating I/O cells ...
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_elaborate Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_recondition_post_elaborate.log
+INFO: Disconnected 66 don't care inputs from ALUs in 2 iterations
+INFO: Removed 1 dangling nets that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Elaborating I/O cells ...
+INFO: Mapping core cells ...
+INFO: Annotating timing constraints in ace
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/constraints/ace_constraints.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_0C_slow.sdc
+INFO: Saving Pre-Prepare checkpoint Acxdb Archive file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_prepared_initial.acxdb
+INFO: Active implementation database saved to file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_prepared_initial.acxdb
+INFO: Checking ACX_SNAPSHOT debugger.x_snapshot
+INFO: Wrote snapshot channel names to /fpga/vp_eth_loopback_demo/src/ace/impl_1/output/names.snapshot
+INFO: Also wrote snapshot channel names to /fpga/vp_eth_loopback_demo/src/ace/impl_1/output/vp_project_impl_1_names.snapshot
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_recondition_post_map.log
+INFO: Deleted 1 zero-pin nets
+INFO: Disconnected 1 LUT inputs (due to unnecessary SOURCE/LUT connections)
+INFO: Replaced 9 DFFs with Sources (correcting Source to DFF data input connections)
+INFO: Replaced 8 DFFs with Sources (correcting Source to DFF data input connections)
+INFO: Disconnected 6 LUT inputs (due to unnecessary SOURCE/LUT connections)
+INFO: Replaced 4 DFFs with Sources (correcting Source to DFF data input connections)
+INFO: Disconnected 12 LUT inputs (due to unnecessary SOURCE/LUT connections)
+INFO: Deleted 7 dangling output nets
+INFO: Removed 7 dangling instances that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Remapping entire design...
+INFO: Netlist optimization complete. (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_recondition_post_remap.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Initializing retiming log to file /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_directed_retiming.log , 
+INFO: Running Area Optimization...
+INFO: Rewired 0 pins to equivalent clocks
+INFO: Removed 39 dangling instances that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Area Optimization complete (runtime = 00:00:03)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_recondition_post_rewire_1.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Graph Rewriting.
+INFO: Removed 2 dangling instances that could not be reached from the primary outputs.  For detailed information enable the implementation option save_sweep_log_file.
+INFO: Moved 297 reset pins to LUTs.
+INFO: Removed 270 dangling instances that could not be reached from the primary outputs.  For detailed information enable the implementation option save_sweep_log_file.
+INFO: Made 284 applications of rules.
+INFO: Rewrite complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_recondition_post_rewrite_1.log
+INFO: Disconnected 557 LUT inputs (due to unnecessary SOURCE/LUT connections)
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Inserted 3 fanout buffers
+INFO: Fanout Buffering complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_recondition_post_fanout_3.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_recondition_post_fanout_4.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Flattening netlist project_top
+INFO: Transformed 1 inverting ALUs
+INFO: Deleted 125 inverters
+INFO: Fanout Buffering complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_recondition_post_fanout_6.log
+INFO: Disconnected non-unique input pins on 1 LUT instances
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Wrote clock report to /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_clocks_prepared.html
+INFO: Set existing defparam: used_as_reset on Instance: fpga_rst_l_ipin
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.x_r2c_usr2_tdo to location "d:o_ic2tap_usr2_tdo"
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.x_r2c_usr1_tdo to location "d:o_ic2tap_usr1_tdo"
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.x_r2c_update_dr to location "d:i_cfg2ic_update_dr"
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.x_r2c_shift_dr to location "d:i_cfg2ic_shift_dr"
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.x_r2c_capture_dr to location "d:i_cfg2ic_capture_dr"
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.x_r2c_usr2_sel to location "d:i_tap2ic_usr2_sel"
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.x_r2c_usr1_sel to location "d:i_tap2ic_usr1_sel"
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.x_r2c_tdi_core to location "d:i_cfg2ic_jtag_tdi"
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.x_r2c_jtag_reset_n to location "d:i_tap2ic_jtag_reset_n"
+INFO: Applying defparam placement of debugger.x_jtap_interface.x_acx_jtap.clk_ipin_tck to location "u_ic_south.u_ic_ns_tc0.u_ic_ns_trunktile.gclk_ipin[128]"
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_prepare Netlist project_top
+INFO: For detailed information see the file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_recondition_post_prepare.log
+INFO: Cloned 1 LUTs (correcting LUT to SEQ connections with multiple fanout)
+INFO: Permuted A and B inputs on 6 ALUs to improve related LUT packing
+INFO: Merged: 0 MLPs
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Wrote utilization report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_utilization_prepared.html
+INFO: Wrote utilization report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_utilization_prepared.txt
+INFO: Wrote pin assignment report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_pins_prepared.html
+INFO: Wrote pin assignment report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_pins_prepared.txt
+INFO: Saving Post-Prepare checkpoint Acxdb Archive file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_prepared.acxdb
+INFO: Active implementation database saved to file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_prepared.acxdb
+Checking post_prepare Netlist project_top
+-- Checking netlist...
+INFO: Check complete (runtime = 00:00:00)
+INFO: Check returned: 0 errors and 0 warnings
+INFO: Flow step "run_prepare" completed in 45 seconds.  Peak memory usage is 7769 MB. Cputime 38 seconds.
+INFO: ===========================================
+INFO: Running flow step "run_place"
+INFO: ===========================================
+INFO: Running reset removal
+INFO: No Reset removal work to do
+INFO: Running vmode removal
+INFO: No vmode blocks detected
+INFO: Transmitting routing visualization update...
+INFO: Completed transmitting routing visualization data
+INFO: Unplaced 0 instances
+Checking pre_pnr Netlist project_top
+-- Checking IO Assignment...
+-- Checking pre-placement...
+-- Checking netlist...
+INFO: Check complete (runtime = 00:00:00)
+INFO: Check returned: 0 errors and 0 warnings
+INFO: Boundary placement: Placing ASCs...
+INFO: Running automatic placement region creation...
+Running global placement on netlist project_top...
+Created 1 fast-feedback clusters
+INFO: Routability Driven Clustering
+INFO: Created 167 routability-driven clusters
+INFO: Building modules from pre-clustering
+-- Phase 0 took 0.9s (1/1,100:559)
+-- Phase 1 took 0.0s (0/0,0:559)
+-- Phase 2 took 0.1s (1/1,100:376)
+-- Phase 3 took 0.7+0.5s (4/5,307:1038)
+-- Phase 4 took 1.3s (4/7,314:1012)
+INFO: Block placement took 00:00:00
+INFO: IO placement took 00:00:00
+INFO: Global Placement complete (runtime = 00:00:08)
+INFO: Wrote placement report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_placement_global.txt
+INFO: Writing Report File completed /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_placement_global.txt (runtime = 00:00:00)
+INFO: Placing special I/Os ...
+INFO: Running Placement Validation...
+INFO: top dims: 268, 310
+Recreated 1 fast-feedback clusters
+INFO: Placing 1 fast-feedback clusters
+INFO: Placement Validation complete (runtime = 00:00:03)
+INFO: Running Find WideGates...
+INFO: Post-Placement Pin Re-Assignment...
+INFO: Placement Find WideGates complete (runtime = 00:00:03)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_place Netlist project_top
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Running Placement-based cloning...
+INFO: Running Netlist Optimization...
+INFO: Netlist Optimization complete (runtime = 00:00:00)
+INFO: Deleted 0 inverters
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_place Netlist project_top
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Active implementation database saved to file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_placed_loweffort.acxdb
+INFO: Writing project_top_placed_loweffort.acxdb completed (runtime = 00:00:00)
+INFO: Running Area Optimization...
+INFO: Rewired 0 pins to equivalent clocks
+INFO: Removed 17 dangling instances that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Removed 5 dangling instances and 2 dangling nets that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Area Optimization complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_place Netlist project_top
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Running Placement Optimization...
+Recreated 1 fast-feedback clusters
+INFO: Optimized 1 fast-connect clusters
+INFO: Placement Optimize FastConnect complete (runtime = 00:00:01)
+INFO: Running Placement Optimization...
+INFO: Detected 127 pipeline flops, but only unplaced 0 flops
+INFO: Placement Optimization complete (runtime = 00:00:01)
+INFO: Active implementation database saved to file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_placed_higheffort.acxdb
+INFO: Writing project_top_placed_higheffort.acxdb completed (runtime = 00:00:00)
+INFO: Running Area Optimization...
+INFO: Rewired 0 pins to equivalent clocks
+INFO: Removed 4 dangling instances and 2 dangling nets that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Area Optimization complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_place Netlist project_top
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Placement Legalizer Cleanup complete (runtime = 00:00:00)
+INFO: Running Placement Validation...
+INFO: top dims: 268, 310
+Recreated 1 fast-feedback clusters
+INFO: Placing 1 fast-feedback clusters
+INFO: Placement Validation complete (runtime = 00:00:02)
+INFO: Rewired 0 pins to equivalent clocks
+INFO: Rewire Equivalent Clocks (runtime = 00:00:00)
+INFO: tile optimize time 0:00.09
+INFO: Saving Post-Place checkpoint Acxdb Archive file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_placed.acxdb
+INFO: Active implementation database saved to file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_placed.acxdb
+INFO: Writing project_top_placed.acxdb completed (runtime = 00:00:00)
+INFO: Wrote utilization report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_utilization_placed.html
+INFO: Wrote utilization report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_utilization_placed.txt
+INFO: Wrote clock report to /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_clocks_placed.html
+Checking post_place Netlist project_top
+-- Checking IO Assignment...
+-- Checking boundary placement...
+-- Checking placement...
+-- Checking netlist...
+INFO: Check complete (runtime = 00:00:04)
+INFO: Check returned: 0 errors and 0 warnings
+INFO: Flow step "run_place" completed in 30 seconds.  Peak memory usage is 7769 MB. Cputime 35 seconds.
+INFO: ===========================================
+INFO: Running flow step "run_route"
+INFO: ===========================================
+INFO: Unplaced 0 instances
+INFO: Running reset removal
+INFO: No Reset removal work to do
+INFO: Running vmode removal
+INFO: No vmode blocks detected
+INFO: Multithread: based on placement area, number of threads set to 1
+INFO: ace:router:Routing 1792 of 2495 nets, timing-driven.
+INFO: Bus wires usage enabled
+INFO: ace:router: Router-setup runtime 0:04.60 ; wallclock 0:04.62
+INFO:     2                           i_clk_ipin_net	doms  2 (core  1,regions  2 [ 2  0]) ........FF...... routed drep                     i_clk    #  
+INFO:     1                        debugger.tck_core	doms  2 (core  1,regions  1 [ 1  0]) ........F....... routed drep                       tck    #  
+INFO:     1     ethernet_0_m0_ff_clk_divby2_ipin_net	doms  2 (core  0,regions  0 [ 0  0]) ...#............        drep ethernet_0_m0_ff_clk_divb       
+INFO:     1     ethernet_0_m1_ff_clk_divby2_ipin_net	doms  2 (core  0,regions  0 [ 0  0]) ...#............        drep ethernet_0_m1_ff_clk_divb       
+INFO:     1       ethernet_0_ref_clk_divby2_ipin_net	doms  2 (core  0,regions  0 [ 0  0]) ...#............        drep ethernet_0_ref_clk_divby2       
+INFO:     1              mcio_vio_45_10_clk_ipin_net	doms  2 (core  0,regions  0 [ 0  0]) ............#...        drep        mcio_vio_45_10_clk       
+INFO: ace:router: Initial-clock-route runtime 0:01.13 ; wallclock 0:01.18
+INFO: SUMMARY: same tile 513, short neighbour 0, far neighbour 0
+INFO: Active implementation database saved to file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_routed_after_singlepin.acxdb
+INFO: ace:router: Initial-route runtime 0:03.62 ; wallclock 0:03.86
+INFO: ace:router:Initial: 1768 of 1781 nets routed, 2228 overflows, 4 max edge, 23591, 2536, 901, 863, 18087, 1204, 8653
+INFO: ace:router: Resolve-congestion runtime 0:03.51 ; wallclock 0:04.03
+INFO: ace:router: Post-opt runtime 0:04.74 ; wallclock 0:04.90
+INFO: ace:router: Clock-skew-opt-and-misc runtime 0:00.28 ; wallclock 0:00.29
+INFO: All-temperature hold-time fixing.
+INFO: HM : 9
+INFO: ace:router: Hold-fixing runtime 1:34.91 ; wallclock 1:36.03
+INFO: ace:router:Final: 4 iterations, 0 overflows..
+INFO: ace:router:Final: 3788484 : 0 
+INFO: ace:router:Final: 22693, 2663, 1132, 874, 17415, 139, 609, 9297
+INFO: ace:router: Post-route runtime 0:00.94 ; wallclock 0:00.98
+INFO: ace:router: Total router runtime 1:53.73 ; wallclock 1:55.90 ; memory 7518 MB
+INFO: Wrote clock report to /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_clocks_routed.html
+INFO: Wrote utilization report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_utilization_routed.html
+INFO: Wrote utilization report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_utilization_routed.txt
+INFO: (bitstream/set_inversion): Computing inversion pattern.
+INFO: Saving Post-Route checkpoint Acxdb Archive file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_routed.acxdb
+INFO: Active implementation database saved to file: /fpga/vp_eth_loopback_demo/src/ace/impl_1/project_top_routed.acxdb
+Checking post_route Netlist project_top
+-- Checking IO Assignment...
+-- Checking routing...
+-- Checking boundary placement...
+-- Checking placement...
+INFO: Check complete (runtime = 00:00:04)
+INFO: Check returned: 0 errors and 0 warnings
+INFO: Saved clock pre-route constraints to file /fpga/vp_eth_loopback_demo/src/ace/impl_1/output/project_top_clock_preroutes.pdc
+INFO: Flow step "run_route" completed in 140 seconds.  Peak memory usage is 7769 MB. Cputime 136 seconds.
+INFO: ===========================================
+INFO: Running flow step "report_timing_routed"
+INFO: ===========================================
+INFO: Loading fabric db...
+INFO: Fabric load completed.
+INFO: Timing analysis for temperature 0C
+INFO: Running Timing Analysis
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/constraints/ace_constraints.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_0C_fast.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/constraints/ace_constraints.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_0C_slow.sdc
+INFO: Calculating upper limits of clock frequencies
+INFO: Timing analysis completed.
+INFO: Current Timing
+INFO: Clock: i_clk; target: 100.0 MHz; upper-limit: 351.7 MHz; meets timing: setup yes (+7.157ns), hold yes (+0.010ns)
+INFO: Clock: tck; target: 25.0 MHz; upper-limit: 162.3 MHz; meets timing: setup yes (+16.919ns), hold yes (+0.003ns)
+INFO: Wrote Timing Report to /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_timing_routed_C2_0p85V_0C.html
+INFO: Loading fabric db...
+INFO: Fabric load completed.
+INFO: Flow step "report_timing_routed" completed in 25 seconds.  Peak memory usage is 7769 MB. Cputime 23 seconds.
+INFO: ===========================================
+INFO: Running flow step "post_process"
+INFO: ===========================================
+INFO: Post-processing place and route results... 
+INFO: Running reset removal
+INFO: No Reset removal work to do
+INFO: Running vmode removal
+INFO: No vmode blocks detected
+INFO: Disabling unused sites (added 0 instances)
+INFO: Multithread: based on placement area, number of threads set to 1
+INFO: ace:router:Routing 11 of 2547 nets
+INFO: ace:router:  2 nets (1113 pins) prerouted.
+INFO: Bus wires usage enabled
+INFO: ace:router: Router-setup runtime 0:03.82 ; wallclock 0:03.89
+INFO:     2                           i_clk_ipin_net	doms  2 (core  1,regions  2 [ 2  0]) ........FF...... routed drep                     i_clk    #  
+INFO:     1                        debugger.tck_core	doms  2 (core  1,regions  1 [ 1  0]) ........F....... routed drep                       tck    #  
+INFO:     1     ethernet_0_m0_ff_clk_divby2_ipin_net	doms  2 (core  0,regions  0 [ 0  0]) ...#............        drep ethernet_0_m0_ff_clk_divb       
+INFO:     1     ethernet_0_m1_ff_clk_divby2_ipin_net	doms  2 (core  0,regions  0 [ 0  0]) ...#............        drep ethernet_0_m1_ff_clk_divb       
+INFO:     1       ethernet_0_ref_clk_divby2_ipin_net	doms  2 (core  0,regions  0 [ 0  0]) ...#............        drep ethernet_0_ref_clk_divby2       
+INFO:     1              mcio_vio_45_10_clk_ipin_net	doms  2 (core  0,regions  0 [ 0  0]) ............#...        drep        mcio_vio_45_10_clk       
+INFO: ace:router: Initial-clock-route runtime 0:01.23 ; wallclock 0:01.28
+INFO: ace:router:Initial: 0 of 2 nets routed, 0 overflows, 1 max edge, 0, 0, 0, 0, 0, 0, 0
+INFO: ace:router: Resolve-congestion runtime 0:02.20 ; wallclock 0:02.29
+INFO: ace:router: Post-opt runtime 0:00.64 ; wallclock 0:00.62
+INFO: ace:router: Clock-skew-opt-and-misc runtime 0:00.33 ; wallclock 0:00.35
+INFO: ace:router: Hold-fixing runtime 0:00.15 ; wallclock 0:00.17
+INFO: ace:router:Final: 0 iterations, 0 overflows in the boundary..
+INFO: ace:router:Final: 0 : 0 
+INFO: ace:router:Final: 0, 0, 0, 0, 0, 0, 0
+INFO: ace:router: Post-route runtime 0:00.02 ; wallclock 0:00.07
+INFO: ace:router: Total router runtime 0:08.39 ; wallclock 0:08.67 ; memory 7704 MB
+INFO: (bitstream/set_inversion): Computing inversion pattern.
+INFO: Saved clock pre-route constraints to file /fpga/vp_eth_loopback_demo/src/ace/impl_1/output/project_top_clock_preroutes.pdc
+INFO: Flow step "post_process" completed in 16 seconds.  Peak memory usage is 7792 MB. Cputime 14 seconds.
+INFO: ===========================================
+INFO: Running flow step "final_drc_checks"
+INFO: ===========================================
+INFO: Running Final DRC Checks...
+Checking final_drc Netlist project_top
+-- Checking IO Assignment...
+-- Checking routing...
+-- Checking placement...
+-- Checking netlist...
+INFO: Check complete (runtime = 00:00:04)
+INFO: Check returned: 0 errors and 0 warnings
+INFO: Flow step "final_drc_checks" completed in 4 seconds.  Peak memory usage is 7792 MB. Cputime 3 seconds.
+INFO: ===========================================
+INFO: Running flow step "report_timing_final"
+INFO: ===========================================
+INFO: Loading fabric db...
+INFO: Fabric load completed.
+INFO: Timing analysis for temperature 125C
+INFO: Running Timing Analysis
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/constraints/ace_constraints.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_125C_fast.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/constraints/ace_constraints.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_125C_slow.sdc
+INFO: Calculating upper limits of clock frequencies
+INFO: Timing analysis completed.
+INFO: Current Timing
+INFO: Clock: i_clk; target: 100.0 MHz; upper-limit: 362.8 MHz; meets timing: setup yes (+7.244ns), hold yes (+0.012ns)
+INFO: Clock: tck; target: 25.0 MHz; upper-limit: 166.4 MHz; meets timing: setup yes (+16.995ns), hold yes (+0.004ns)
+INFO: Wrote Timing Report to /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_timing_final_C2_0p85V_125C.html
+INFO: Loading fabric db...
+INFO: Fabric load completed.
+INFO: Loading fabric db...
+INFO: Fabric load completed.
+INFO: Timing analysis for temperature -40C
+INFO: Running Timing Analysis
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/constraints/ace_constraints.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_n40C_fast.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/constraints/ace_constraints.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_n40C_slow.sdc
+INFO: Calculating upper limits of clock frequencies
+INFO: Timing analysis completed.
+INFO: Current Timing
+INFO: Clock: i_clk; target: 100.0 MHz; upper-limit: 346.3 MHz; meets timing: setup yes (+7.112ns), hold yes (+0.009ns)
+INFO: Clock: tck; target: 25.0 MHz; upper-limit: 160.0 MHz; meets timing: setup yes (+16.875ns), hold yes (+0.003ns)
+INFO: Wrote Timing Report to /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_timing_final_C2_0p85V_n40C.html
+INFO: Loading fabric db...
+INFO: Fabric load completed.
+INFO: Loading fabric db...
+INFO: Fabric load completed.
+INFO: Timing analysis for temperature 0C
+INFO: Running Timing Analysis
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/constraints/ace_constraints.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_0C_fast.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/constraints/ace_constraints.sdc
+INFO: Reading constraints file /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_delays_C2_850mV_0C_slow.sdc
+INFO: Calculating upper limits of clock frequencies
+INFO: Timing analysis completed.
+INFO: Current Timing
+INFO: Clock: i_clk; target: 100.0 MHz; upper-limit: 351.7 MHz; meets timing: setup yes (+7.157ns), hold yes (+0.010ns)
+INFO: Clock: tck; target: 25.0 MHz; upper-limit: 162.3 MHz; meets timing: setup yes (+16.919ns), hold yes (+0.003ns)
+INFO: Wrote Timing Report to /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_timing_final_C2_0p85V_0C.html
+INFO: Loading fabric db...
+INFO: Fabric load completed.
+INFO: Flow step "report_timing_final" completed in 93 seconds.  Peak memory usage is 7792 MB. Cputime 92 seconds.
+INFO: ===========================================
+INFO: Running flow step "write_reports_final"
+INFO: ===========================================
+INFO: Wrote pin assignment report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_pins_final.txt
+INFO: Wrote pin assignment report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_pins_final.csv
+INFO: Wrote pin assignment report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_pins_final.html
+INFO: Wrote utilization report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_utilization_final.txt
+INFO: Wrote utilization report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_utilization_final.html
+INFO: Wrote placement report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_placement_final.txt
+INFO: Wrote placement report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/.debug/project_top_placement_final.html
+INFO: report_routing:Wrote routing report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_routing_final.txt
+INFO: report_routing:Wrote routing report file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/reports/project_top_routing_final.html
+INFO: Flow step "write_reports_final" completed in 5 seconds.  Peak memory usage is 7792 MB. Cputime 4 seconds.
+INFO: ===========================================
+INFO: Running flow step "write_bitstream"
+INFO: ===========================================
+Checking pre_bitstream Netlist project_top
+-- Checking placement...
+INFO: Check complete (runtime = 00:00:00)
+INFO: Check returned: 0 errors and 0 warnings
+INFO: Initializing bitstream data...
+INFO: Creating connection map...
+INFO: Compiling FCU Instructions...
+INFO: Compiling address map...
+INFO: DONE Compiling address map...
+INFO: Running RAM bitstream conversion
+INFO: Done RAM bitstream conversion
+INFO: Processing 374564700 configuration bits...
+INFO: Applying bitstream hex file: /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_bitstream0.hex
+INFO: Applying bitstream hex file: /fpga/vp_eth_loopback_demo/src/ioring/vp_project_ioring_bitstream1.hex
+INFO: Writing STAPL JAM file...
+INFO: Wrote bitstream STAPL file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/output/project_top.jam
+INFO: Exact bitstream size in STAPL file is 62113280 bits
+INFO: Writing hex file...
+INFO: Wrote bitstream Raw Hex file to: /fpga/vp_eth_loopback_demo/src/ace/impl_1/output/project_top.hex
+INFO: Exact bitstream size in Raw Hex file is 62113280 bits
+INFO: Flow step "write_bitstream" completed in 22 seconds.  Peak memory usage is 7792 MB. Cputime 20 seconds.
+INFO: ===========================================
+INFO: Overall flow completed in 386 seconds.  Peak memory usage is 7792 MB. Cputime 373 seconds.
+INFO: ===========================================
+INFO: Transmitting metadata...
+INFO: Completed transmitting metadata.
+INFO: Transmitting placement visualization data...
+INFO: Completed transmitting placement visualization data
+INFO: Transmitting routing visualization data...
+INFO: Completed transmitting routing visualization data

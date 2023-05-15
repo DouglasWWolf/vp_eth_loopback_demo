@@ -1,0 +1,125 @@
+        Utilization Report - Routed - project_top
+        _________________________________________
+
+ACE -- Achronix CAD Environment -- Version 9.0.1 -- Build  405518 -- Date 2023-03-01 00:42
+
+Design: vp_project - impl_1 - project_top
+Device: AC7t1500
+Generated on Mon May 15 11:10:01 PDT 2023
+Host: simtool-5
+
+---------------------------------------------------------------------------
+
+
+Utilization Summary =======
+
+   RLB Tiles (Occupied):             0.240%                               
+       LUT Sites:                    0.080%                               
+       DFF Sites:                    0.080%                               
+       ALU Sites:                    0.010%                               
+   LRAM/MLP Sites:                   0.000%                               
+   BRAM Sites:                       0.040%                               
+   I/O Pin Sites:                    1.070%                               
+       Clock Pins:                   1.120%                               
+           Clock Input Pins:         1.790%                               
+           Clock Output Pins:        0.000%                               
+       Data Pins:                    1.070%                               
+           Data Input Pins:          1.120%                               
+           Data Output Pins:         1.030%                               
+   IO Pad Sites                      82.95%                               
+       GPIO Pad Sites                84.38%                               
+       CLKIO Pad Sites               79.17%                               
+
+
+Utilization Details =======
+
+   Cell Name                                   Instances   Sites       Utilization 
+   ALU8i                                       17          172800      0.010%      
+   BRAM Total                                  1           2560        0.040%      
+       BRAM72K_SDP                             1                                   
+   BUS_DFF Total                               0           46080       0.000%      
+   BUS_MUX4                                    0           46080       0.000%      
+   CLKDIV                                      0           256         0.000%      
+   CLKGATE                                     0           128         0.000%      
+   CLKSWITCH                                   0           128         0.000%      
+   I/O Pin Total                               703         64466       1.090%      
+       Clock Pin Total                         11          896         1.230%      
+           CLK_IPIN Total                      11          560         1.960%      
+               trunk                           6           256         2.340%      
+               mini-trunk                      4           240         1.670%      
+               branch                          0           64          0.000%      
+           CLK_OPIN Total                      0           336         0.000%      
+               mini-trunk                      0           80          0.000%      
+               branch                          0           256         0.000%      
+       Data Pin Total                          692         63570       1.090%      
+           IPIN Total                          364         31766       1.150%      
+               clocked                         0                                   
+               unclocked                       357                                 
+           OPIN Total                          328         31804       1.030%      
+               clocked                         0                                   
+               unclocked                       326                                 
+   DFF Total (see notes)                       1157        1382400     0.080%      
+       general purpose DFFs (a)                1104        1382400     0.080%      
+           DFFER                               16                                  
+           DFFES                               2                                   
+           DFFE                                22                                  
+           DFFNE                               446                                 
+           DFFN                                16                                  
+           DFFR                                55                                  
+           DFFS                                9                                   
+           DFF                                 538                                 
+       inaccessible (b)                        53                                  
+   LMUX2                                       0           1382400     0.000%      
+   LRAM/MLP Total (see notes)                  0           2560        0.000%      
+       general purpose LRAMs/MLPs (a)          0           2560        0.000%      
+       inaccessible (b)                        0                                   
+   LUT Total (see notes)                       549         691200      0.080%      
+       general purpose LUTs (a)                513                                 
+       pass-through sites (b)                  36                                  
+       virtual IO LUTs (c)                     0                                   
+   MUX2                                        0           345600      0.000%      
+   NAP_MASTER Total                            0           80          0.000%      
+   NAP_SLAVE Total                             2           80          2.500%      
+       NAP_HORIZONTAL                          2                                   
+   I/O Pads (Total)                            73          88          82.95%      
+   GPIO Pads                                   54          64          84.38%      
+   CLKIO Pads                                  19          24          79.17%      
+   PLLs                                        8           16          50.00%      
+   DDR Memories                                0           1           0.000%      
+   GDDR6s                                      0           8           0.000%      
+   Ethernet Controllers                        1           2           50.00%      
+   PCIe Controllers                            0           2           0.000%      
+   SerDes Lanes                                4           32          12.50%      
+
+
+Other Resources =======
+
+   Category                          Required    Available   Utilization 
+   RLB Tiles (Occupied)                        137         57600       0.240%      
+
+
+---------------------------------------------------------------------------
+
+
+Notes =======
+
+
+  Total DFF count = (a + b)
+
+  - (a) "general purpose" DFFs are DFF instances that are placed on a DFF
+    site.
+  - (b) "inaccessible DFFs" are DFF sites that must remain empty due to a
+    mutex with an ALU or MUX instance that does not drive a DFF.  They
+    are required for routing.
+
+  Total LUT count = (a + b - c)
+
+  - (a) "general purpose" LUTs are LUT sites occupied by a physical LUT
+    instance.
+  - (b) "pass-Through LUT sites" are LUT sites that must remain empty due
+    to a mutex with an ALU or MUX instance input not driven by a LUT. 
+    They are required for routing.
+  - (c) "virtual IO LUTs" are LUT instances created by ACE when
+    virtualizing overflow IOs. These will only be present in evaluation
+    mode, and not in the final design.  For that reason we do not report
+    them as contributing to the total LUT count.

@@ -1,0 +1,66 @@
+Unable to repair Instance: LUT6_T : i2const0_RR2_6
+Unable to repair Instance: LUT6_T : i1const1_RR2_2
+Unable to repair Instance: LUT6_T : i1const1_RR2_3
+Unable to repair Instance: LUT6_T : i1const1_RR2_4
+Unable to repair Instance: LUT6_T : i1const1_RR2_5
+Unable to repair Instance: LUT6_T : i1const1_RR2_6
+Unable to repair Instance: LUT6_T : i1const1_RR2_7
+Unable to repair Instance: LUT6_T : i1const1_RR2_8
+Unable to repair Instance: LUT6_T : i1const1_RR2_9
+Unable to repair Instance: LUT6_T : i1const1_RR2_10
+Unable to repair Instance: LUT6_T : debugger.x_snapshot.x_monitor.x_pre_store.i1const0_RR2_2
+Unable to repair Instance: LUT6_T : debugger.x_snapshot.x_monitor.i1const0_RR2_1
+Unable to repair Instance: LUT6_T : debugger.x_snapshot.x_monitor.i1const0_RR2_0
+Repaired Instance: SOURCE0_T : clock_cycle_cry_0_8__Gnd_src0_2_const_split_1
+Repaired Instance: SOURCE0_T : clock_cycle_cry_0_8__Gnd_src0_2_const_split_3
+Repaired Instance: SOURCE0_T : clock_cycle_cry_0_8__Gnd_src0_2_const_split_5
+Repaired Instance: SOURCE0_T : nap_sender.i_nap_horizontal_Gnd_src0_2_const_split_7
+Repaired Instance: SOURCE0_T : nap_recver.i_nap_horizontal_Gnd_src0_2_const_split_293
+Repaired Instance: SOURCE0_T : sender_object.counter_6_0_cry_0_0_Gnd_src0_2_const_split_588
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.x_pre_store.un1_pre_store_extra_1_cry_0_0_Gnd_src0_2_const_split_589
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.x_pre_store.un1_pre_store_extra_1_cry_8_0_0_Gnd_src0_2_const_split_590
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.un1_trigger_delay_count_1_cry_0_0_0_Gnd_src0_2_const_split_591
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.un1_trigger_delay_count_1_cry_0_0_0_Gnd_src0_2_const_split_592
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.x_ram_Gnd_src0_2_const_split_593
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.x_wide_fifo.x_bram_fifo_ctrl.num_items_cry_0_0__Gnd_src0_2_const_split_626
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.un1_rd_addr_cry_7_0_Gnd_src0_2_const_split_627
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.un1_rd_addr_cry_7_0_Gnd_src0_2_const_split_628
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.un1_rd_addr_cry_0_0_Gnd_src0_2_const_split_630
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.un1_rd_addr_cry_0_0_Gnd_src0_2_const_split_632
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.un1_rd_addr_cry_0_0_Gnd_src0_2_const_split_634
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.un1_rd_addr_cry_0_0_Gnd_src0_2_const_split_636
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.un1_rd_addr_cry_0_0_Gnd_src0_2_const_split_637
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.un1_dut_name_idx_cry_0_0_Gnd_src0_2_const_split_638
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.un1_dut_name_idx_cry_0_0_Gnd_src0_2_const_split_639
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.wr_addr_cry_0_8__Gnd_src0_2_const_split_640
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.wr_addr_cry_0_0__Gnd_src0_2_const_split_642
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.wr_addr_cry_0_0__Gnd_src0_2_const_split_644
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.wr_addr_cry_0_0__Gnd_src0_2_const_split_646
+Repaired Instance: SOURCE0_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.wr_addr_cry_0_0__Gnd_src0_2_const_split_648
+Repaired Instance: SOURCE0_T : sender_object.counter7_0_0_Gnd_src0_2_const_split_650
+Repaired Instance: SOURCE0_T : sender_object.counter7_0_0_Gnd_src0_2_const_split_651
+Repaired Instance: SOURCE0_T : sender_object.counter_6_0_cry_24_0_Gnd_src0_2_const_split_652
+Repaired Instance: SOURCE0_T : clock_cycle_cry_0_0__Gnd_src0_2_const_split_653
+Repaired Instance: SOURCE0_T : clock_cycle_cry_0_0__Gnd_src0_2_const_split_655
+Repaired Instance: SOURCE0_T : clock_cycle_cry_0_0__Gnd_src0_2_const_split_657
+Repaired Instance: SOURCE0_T : clock_cycle_cry_0_0__Gnd_src0_2_const_split_659
+Repaired Instance: SOURCE1_T : debugger.x_jtap_interface.x_acx_jtap.x_r2c_shift_dr_Vdd_src1_1_const_split_0
+Repaired Instance: SOURCE1_T : debugger.x_jtap_interface.x_acx_jtap.x_r2c_shift_dr_Vdd_src1_1_const_split_1
+Repaired Instance: SOURCE1_T : debugger.x_jtap_interface.x_acx_jtap.x_r2c_capture_dr_Vdd_src1_1_const_split_2
+Repaired Instance: SOURCE1_T : debugger.x_jtap_interface.x_acx_jtap.x_r2c_capture_dr_Vdd_src1_1_const_split_3
+Repaired Instance: SOURCE1_T : debugger.x_jtap_interface.x_acx_jtap.x_r2c_usr2_sel_Vdd_src1_1_const_split_4
+Repaired Instance: SOURCE1_T : debugger.x_jtap_interface.x_acx_jtap.x_r2c_usr2_sel_Vdd_src1_1_const_split_5
+Repaired Instance: SOURCE1_T : debugger.x_jtap_interface.x_acx_jtap.x_r2c_usr1_sel_Vdd_src1_1_const_split_6
+Repaired Instance: SOURCE1_T : debugger.x_jtap_interface.x_acx_jtap.x_r2c_usr1_sel_Vdd_src1_1_const_split_7
+Repaired Instance: SOURCE1_T : debugger.x_jtap_interface.x_acx_jtap.x_r2c_tdi_core_Vdd_src1_1_const_split_8
+Repaired Instance: SOURCE1_T : debugger.x_jtap_interface.x_acx_jtap.x_r2c_tdi_core_Vdd_src1_1_const_split_9
+Repaired Instance: SOURCE1_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.x_ram_Vdd_src1_1_const_split_10
+Repaired Instance: SOURCE1_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.x_ram_Vdd_src1_1_const_split_18
+Repaired Instance: SOURCE1_T : debugger.x_snapshot.x_monitor.x_wide_fifo.x_bram_fifo_ctrl.num_items_cry_0_0__Vdd_src1_1_const_split_21
+Repaired Instance: SOURCE1_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.un1_rd_addr_cry_0_0_Vdd_src1_1_const_split_22
+Repaired Instance: SOURCE1_T : debugger.x_snapshot.x_monitor.x_wide_fifo.stage_0__x_deep_fifo.wr_addr_cry_0_0__Vdd_src1_1_const_split_23
+Repaired Instance: SOURCE1_T : clock_cycle_cry_0_0__Vdd_src1_1_const_split_24
+Repaired Instance: SOURCE1_T : sender_object.counter7_0_0_Vdd_src1_1_const_split_25
+Repaired Instance: SOURCE1_T : sender_object.counter7_0_0_Vdd_src1_1_const_split_26
+Repaired Instance: SOURCE1_T : sender_object.counter7_0_0_Vdd_src1_1_const_split_28
+Number Repaired: 52 Number Broken: 13

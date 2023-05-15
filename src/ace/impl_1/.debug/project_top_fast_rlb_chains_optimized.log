@@ -1,0 +1,6 @@
+
+------------------START-CHAIN------------------
+LUT debugger.x_snapshot.x_monitor.x_all_triggers.trigger_match_2_ [x_core.L[21][9].rlb.lg[0].ls[0].lut[0]]
+LUT debugger.x_snapshot.x_monitor.x_all_triggers.o_match_u [x_core.L[21][9].rlb.lg[0].ls[0].lut[1]]
+LUT debugger.x_snapshot.x_monitor.monitor_state_nss_m_0_3_ [x_core.L[21][9].rlb.lg[0].ls[1].lut[0]]
+LUT debugger.x_snapshot.x_monitor.monitor_state_3__ctrl_RR_RULE1_ [x_core.L[21][9].rlb.lg[0].ls[1].lut[1]]

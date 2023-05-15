@@ -1,0 +1,88 @@
+`pragma protect begin_protected
+`pragma protect encrypt_agent="Achronix CAD Environment"
+`pragma protect encoding=(enctype="base64")
+`pragma protect version = 1
+`pragma protect data_method="aes128-cbc"
+`pragma protect key_keyowner="MTI"
+`pragma protect key_keyname="MGC-DVT-MTI"
+`pragma protect key_method="rsa"
+`pragma protect key_block
+TfBwLzqwepHN14N9V+Rw4gyRtVaxs1HNYftPI8FZ4yfjSQxeLWWPoPsCNIgtX0acTv3Y22EFD2AD
+X30RkXLIySa7c0r2TNkmVg56uQbIefq5VxmU8iZcaCpKxjajeUsovsERfiXL1QuLL6yRoljSCdIy
+j+G9up5G4VYbTqm9FIs=
+`pragma protect encoding=(enctype="base64")
+`pragma protect key_keyowner="Achronix"
+`pragma protect key_keyname="ACHRONIX07_000"
+`pragma protect key_method="rsa"
+`pragma protect key_block
+ZIKdW9yslsmr4aROmMh59D94iW0ex5FdCq01YX9NlSYmU0PE6mEm7l7HwZq3mWtzfj8oo0jVxkny
+EJOvhzm6QXcnjq8buT/XR9AGaQ156k8U9uiyz2L9z6gany5N1x/+j4DAAXUUYmaDn303cv5Uv5kt
+2eO0CaIQgDlT/UDCwIfsgbYyTcPW0IDkOFUkx2xawFOO307EOX43BFwOMOzFN6x2qIBp3CJuCZpc
+h+sV+BoaKhsU8V/fOMlgdHkRM5C7V85YguUdQ2pmSg3h6wg2SXbttbE4jA3In0IaKru7ibUNqhan
+4nrl/wBjn/dr+WTD90hMY7WqRW1LgdnEhuf8dQ==
+`pragma protect encoding=(enctype="base64")
+`pragma protect key_keyowner="Achronix"
+`pragma protect key_keyname="ACHRONIX14_000"
+`pragma protect key_method="rsa"
+`pragma protect key_block
+SCXi2WdVN8ZyoLovRfFXq4rHoA80bQil5QYbi9H6NBiru4RaAwHuPZk4ZVu1vpCMuBVzSNibnjk2
+/apG55LsKr5VF36rGyNbGGBB3YbJL/l5mKGDRI66PH8W00rSCrV+hrGraqm/elNZ3Y3J51gJDKa0
+6pdGF7LlD+4sD5VWvUKSe3/g5AdXWK2byjM9ETUMsPBbjoKR3oYvMjUuwJTrEwErBVaYmAEDQ4Yp
+AY48kmotfMxbZSHkUh6NWHO1xBtm1P79jJcsspwNviVzR5x7Txo27QqsbM7bT3hEYvwb1byxSWoE
+z4cxgI3NSl3rin9N+ZCurvmu846bTsKW2SYMhg==
+`pragma protect encoding=(enctype="base64")
+`pragma protect key_keyowner="Synopsys"
+`pragma protect key_keyname="SNPS-VCS-RSA-1"
+`pragma protect key_method="rsa"
+`pragma protect key_block
+TuhvqDFwdcWJklxyJnLG3bD81GhYRrqkkH9JhXj4nh/C7PgdzTnkEhYF6h8vRurytCVlgugR5L/I
+m7JLKLRB3oFNba/E8JkfVphwm7JHA9WKsIjSfbxb1CUlgZPtMmJ8tDRLSI7VTriPqod1IcDHcYfj
+3cgqyXQqGuMVBqU5D+Y=
+`pragma protect encoding=(enctype="base64")
+`pragma protect key_keyowner="Synplicity"
+`pragma protect key_keyname="SYNP15_1"
+`pragma protect key_method="rsa"
+`pragma protect key_block
+xcMFWJowcCBYnkQk5RLx6VsF9jEkWg07bbsmxKPZLLcAgjKeLKbVl0ZEVSaobEizevJ5yrCDmwgK
+OJxIWpAcmjUrsfPqf1PEjhLZoXLqEldOtfYFTvRVcUQj8JibNsicdDIbanMq/Dl+4RVOZrJK5a5U
+5JSxuTyexmmBrmpgpT/SWzu2m/OvzHx2+OWqgz3l8Ef7JWF33eHsl/5D5X/JrCk52x//ZFa5AGnr
+MpRkG99ERasR17MxkzKEsFbGdmZ+hXovuGrHnjTOKtnsT8pZRgQ5ok98PEE9R7PKpxHuDgOoBaxB
+SWnSC3GTUCc0xlOak04Ac17ABt4cwtNNwqzsWA==
+`pragma protect encoding=(enctype="base64")
+`pragma protect key_keyowner="Aldec"
+`pragma protect key_keyname="ALDEC08_001"
+`pragma protect key_method="rsa"
+`pragma protect key_block
+t1EwM2maKbZIC66cf76YHBnzIqshCjmdchhIn6CSEqVR5eKG9LAw4s6DxbmjEQqueyUcaaY2f6Cx
+UO0YEo7pDFJkEc1If4OAuKj5ai2UZK83gdcRVxwpvtvk9DD7+GucfPjAa0CVfXELed0v9t/RuQqL
+F956GL5ne46iWQ2l8dfsCwNfSkzLVzBMETu805wLlkJ0vJJzq6+xgUFnzX4eV8MB9uknT1LhvHvw
+QISBn/MCnLxUXchfrPYB2LlQZKfYvYLtnSwUTkoElj32Ast8haQHmS6/ZOzFTp501dKqpCJIgHcv
+6azRLbe2pdvIv8FI/mDPapnq5tIieBW2U5FOPA==
+`pragma protect encoding=(enctype="base64")
+`pragma protect key_keyowner="Aldec"
+`pragma protect key_keyname="ALDEC15_001"
+`pragma protect key_method="rsa"
+`pragma protect key_block
+NXkekS5duudsDxY9IUHuHRN9sOm6Yuqr8TcadNbu/oVBq8GFzdsBQ1bY/6mXS8poqa1MtrcmYUSG
+clvqVV22pbsKHoyOyjinaE4NOJYvYiv16OijgEGsXjlLe7RfeSd0TVVcG1Cpc+ny1+S4deIKTDWW
+g9Vg0u3Ahsa4Pp+qP0TNuG3t+ozrbIXGO9hOHneHpeEWvF1Ph5FQzAFxBaU9Ys0BEenjMb+AAHZV
+dd3XFi21n7W1bfJPSBEKpLt0AFORwCta3EuJWx7NPNJpZOILDh52OSkSg33yvt6GW5Qa/pi5IRIm
+b4NmzWH+dratardIWd/+FMucADfq/bgMHBjSPQ==
+`pragma protect encoding=(enctype="base64")
+`pragma protect key_keyowner="Cadence Design Systems."
+`pragma protect key_keyname="CDS_RSA_KEY_VER_1"
+`pragma protect key_method="rsa"
+`pragma protect key_block
+CDmXB0CwYwnotSef5h9qTLl+BPEOgff4fvI7rZ9FOTnwAMuWeJafizKm9iHTa22XAD7qme3BuO7k
+076QEZku5A/FYXWmxS66Mt0VZZtH323IVUm/eUdM5vbrvze4YaOt1H+x3K3IOq7VpsqpwSn0e8t5
+6yqerOSe4IB3d5aOcVDSm0OM46BKG11TS5L10ruXhhpbu1AqSV+0eUUr7Fu84BLKSoXFFygIQ2EC
+5UyPuUhcTAfAqp+Vx4jHfoFZ0HG+V/WxEcFxiM/7xf5o+6vgaWJZ728LDllHdXcxVydD5W09X2pb
+J5hQZVErsd7VlA/qsZFI4pWPQeE2vYM/huaRGQ==
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=256)                
+`pragma protect data_block
+lCZa4YpkENRcfNobRyQxkdt0IdqY9fT9ZOSIWhczbq6lqJCJ3D7W6pwmWCgUGVScMDLod8ANfwDN
+ua7Mqcm+5zwdMuxLMft7FQsRZ0G2ceq4h6d973QiV4uEJhH4euQdOXGhj/k5TUZdt0NL4STNQ5dd
+KA/G7ma4YCMdteEOhFkVBdM3PbK/ASxlagcGXhecXLVF0wzboCYUwc7DinPBSzhK2KlliP0CdjYB
+gY3XVNlDZprnWXanXiHxB/3t3SUXz2511LGDzs7o9TAUl/nruXJDibRV58y1tvIQyoY8fZSzUSG6
+bJHhkXwJsygDSqNQUqW8512xCSp9wXAsTzr3bg==
+`pragma protect end_protected
