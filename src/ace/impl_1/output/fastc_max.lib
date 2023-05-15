@@ -1,3 +1,0 @@
-library (fastc_max_FFP935mV0CWCl) {
-include_file (/tools/Achronix/Achronix-linux/system/data/AC7t1500/timing_libs/FFP935mV0CWCl.lib)
-}

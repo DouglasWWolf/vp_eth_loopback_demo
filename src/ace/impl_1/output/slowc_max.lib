@@ -1,3 +1,0 @@
-library (slowc_max_SSP765mV0CWCl) {
-include_file (/tools/Achronix/Achronix-linux/system/data/AC7t1500/timing_libs/SSP765mV0CWCl.lib)
-}
